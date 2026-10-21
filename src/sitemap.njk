@@ -1,0 +1,21 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for p in collections.all %}{% if not p.data.noindex %}
+  <url>
+    <loc>{{ p.url | absoluteUrl }}</loc>
+    {%- if p.data.alternates %}
+    {%- for code, path in p.data.alternates %}
+    <xhtml:link rel="alternate" hreflang="{{ code }}" href="{{ path | absoluteUrl }}"/>
+    {%- endfor %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ p.data.alternates.en | absoluteUrl }}"/>
+    {%- endif %}
+  </url>
+{%- endif %}{% endfor %}
+  <url>
+    <loc>{{ '/portfolio/' | absoluteUrl }}</loc>
+  </url>
+</urlset>
