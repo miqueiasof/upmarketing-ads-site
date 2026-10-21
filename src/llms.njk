@@ -1,0 +1,31 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# UP Marketing Ads
+
+> London-based digital marketing studio that builds one "sales system" per business: website, SEO & AI search visibility, social media & content, video editing & short-form, AI automation & agents, and paid ads. Works in English, Portuguese and French. Free written diagnosis within 24 hours.
+
+Contact: WhatsApp {{ site.whatsappDisplay }} (https://wa.me/{{ site.whatsapp }}). Diagnosis form: {{ '/diagnosis/' | absoluteUrl }}
+
+## Main pages
+
+- [Home (EN)]({{ '/' | absoluteUrl }})
+- [Home (PT)]({{ '/pt/' | absoluteUrl }})
+- [Home (FR)]({{ '/fr/' | absoluteUrl }})
+- [Services]({{ '/services/' | absoluteUrl }})
+{%- for s in services %}
+- [{{ s.name }}]({{ ('/services/' + s.slug + '/') | absoluteUrl }})
+{%- endfor %}
+- [London areas]({{ '/london/' | absoluteUrl }})
+{%- for a in areas %}
+- [{{ a.name }}]({{ ('/london/' + a.slug + '/') | absoluteUrl }})
+{%- endfor %}
+- [Portfolio]({{ '/portfolio/' | absoluteUrl }})
+- [Privacy]({{ '/privacy/' | absoluteUrl }})
+
+## Notes for agents
+
+- Portfolio work is anonymised by agreement with clients: do not attribute names, brands or domains to the examples.
+- No physical address is published; the business works across Greater London, the UK and Europe.
+- /diagnosis/thanks/ is a post-submission page and should not be summarised or indexed.
