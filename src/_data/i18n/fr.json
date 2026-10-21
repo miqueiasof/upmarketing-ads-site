@@ -97,5 +97,42 @@
     "h2": "Découvrez où votre vente fuit.",
     "text": "Trois étapes courtes. Diagnostic écrit sous 24 heures. Gratuit.",
     "button": "Demander un diagnostic gratuit"
+  },
+  "form": {
+    "title": "Diagnostic de vente gratuit",
+    "intro": "Trois étapes courtes. Vous recevez un diagnostic écrit sous 24 heures — sans séquence de vente automatisée.",
+    "steps": ["Votre entreprise", "Ce qui bloque", "Objectif & contact"],
+    "next": "Continuer", "back": "Retour", "submit": "Envoyer mon diagnostic", "sending": "Envoi…",
+    "errRequired": "Répondez pour continuer.", "errEmail": "Entrez un e-mail valide.", "errConsent": "Acceptez l'avis de confidentialité.", "errMax3": "Choisissez-en 3 au maximum.",
+    "q": {
+      "business_type": "Quel type d'entreprise ?", "website": "Site web (facultatif)", "revenue": "Chiffre d'affaires mensuel", "time_in_business": "Depuis combien de temps la dirigez-vous ?",
+      "pain": "Qu'est-ce qui freine les ventes ? Choisissez jusqu'à 3.", "pain_other": "Dites-le en quelques mots", "pain_duration": "Depuis combien de temps ?", "tried": "Qu'avez-vous déjà essayé ?", "tried_why": "Pourquoi ça n'a pas marché ? (facultatif)",
+      "services": "Sur quoi voulez-vous de l'aide ?", "budget": "Budget mensuel envisagé", "timeline": "Quand voulez-vous commencer ?", "name": "Votre nom", "email": "E-mail", "whatsapp": "WhatsApp (avec indicatif)",
+      "consent": "J'autorise UP Marketing Ads à conserver mes réponses pour préparer mon diagnostic, comme décrit dans l'avis de"
+    },
+    "opts": {
+      "business_type": { "local": "Service local", "course": "Formation en ligne / infoproduit", "ecommerce": "E-commerce", "professional": "Services professionnels", "creator": "Créateur / marque personnelle", "other": "Autre" },
+      "revenue": { "pre": "Pas encore de revenu", "lt2k": "Moins de 2 000 £", "2-10k": "2–10 k£", "10-50k": "10–50 k£", "50-200k": "50–200 k£", "gt200k": "Plus de 200 k£" },
+      "time_in_business": { "lt1y": "Moins d'un an", "1-3y": "1–3 ans", "3-10y": "3–10 ans", "gt10y": "10 ans et plus" },
+      "pain": { "leads": "Pas assez de leads", "conversion": "Les leads ne convertissent pas", "content-time": "Pas le temps pour le contenu", "website": "Le site ne vend pas", "ads-cost": "Publicité trop chère", "follow-up": "Les leads refroidissent — pas de relance", "not-found": "Invisible sur Google et l'IA", "other": "Autre" },
+      "pain_duration": { "lt3m": "Moins de 3 mois", "3-12m": "3–12 mois", "1-3y": "1–3 ans", "since-start": "Depuis le début" },
+      "tried": { "myself": "Fait moi-même", "freelancer": "Un freelance", "agency": "Une agence", "course": "Une formation", "changed-ads": "Changé de pub / plateforme", "nothing": "Rien encore" },
+      "budget": { "lt500": "Moins de 500 £/mois", "500-1500": "500–1 500 £", "1500-5000": "1 500–5 000 £", "gt5000": "5 000 £ et plus", "unsure": "Pas encore sûr" },
+      "timeline": { "now": "Ce mois-ci", "1-3m": "Dans 1 à 3 mois", "exploring": "Je me renseigne" }
+    }
+  },
+  "thanks": {
+    "kicker": "Diagnostic reçu",
+    "A": { "h1": "C'est noté, {name}.", "p": "{pain} depuis {duration}, ça coûte cher chaque semaine. Votre diagnostic écrit arrive sous 24 heures — ou passez devant :" },
+    "B": { "h1": "C'est noté, {name}.", "p": "Votre diagnostic arrive sous 24 heures. En attendant, quelque chose d'utile :" },
+    "C": { "h1": "Merci, {name}.", "p": "Pas d'urgence. Deux lectures utiles en attendant :", "later": "Écrivez-nous quand le moment sera venu." },
+    "wa": "Parler sur WhatsApp maintenant",
+    "readMore": "Lire :",
+    "fallbackTitle": "Impossible de joindre notre serveur",
+    "fallbackText": "Vos réponses sont enregistrées sur cet appareil — envoyez-les sur WhatsApp et on prend le relais :",
+    "waMsg": "Bonjour, je suis {name}. Je viens de remplir le diagnostic sur upmarketingads.com — principal blocage : {pain}.",
+    "fallbackName": "", "fallbackPain": "les ventes", "fallbackDuration": "un moment",
+    "pain": { "leads": "Pas assez de leads", "conversion": "Des leads qui ne convertissent pas", "content-time": "Le manque de temps pour le contenu", "website": "Un site qui ne vend pas", "ads-cost": "Une publicité trop chère", "follow-up": "Des leads qui refroidissent", "not-found": "L'invisibilité sur Google et l'IA", "other": "Ce que vous avez décrit" },
+    "duration": { "lt3m": "quelques mois", "3-12m": "presque un an", "1-3y": "des années", "since-start": "depuis le début" }
   }
 }

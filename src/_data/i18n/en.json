@@ -97,5 +97,42 @@
     "h2": "Find out where your sale is leaking.",
     "text": "Three short steps. Written diagnosis within 24 hours. Free.",
     "button": "Get your free diagnosis"
+  },
+  "form": {
+    "title": "Free sales diagnosis",
+    "intro": "Three short steps. You get a written diagnosis within 24 hours — no automated sales sequence.",
+    "steps": ["Your business", "What hurts", "Goal & contact"],
+    "next": "Continue", "back": "Back", "submit": "Send my diagnosis", "sending": "Sending…",
+    "errRequired": "Please answer this to continue.", "errEmail": "Enter a valid email.", "errConsent": "Please accept the privacy notice.", "errMax3": "Pick up to 3.",
+    "q": {
+      "business_type": "What kind of business is it?", "website": "Website (optional)", "revenue": "Monthly revenue", "time_in_business": "How long have you been running it?",
+      "pain": "What's holding sales back? Pick up to 3.", "pain_other": "Tell us in a few words", "pain_duration": "How long has this been going on?", "tried": "What have you already tried?", "tried_why": "Why didn't it work? (optional)",
+      "services": "What do you want help with?", "budget": "Monthly budget you're considering", "timeline": "When do you want to start?", "name": "Your name", "email": "Email", "whatsapp": "WhatsApp (with country code)",
+      "consent": "I agree to UP Marketing Ads storing my answers to prepare my diagnosis, as described in the"
+    },
+    "opts": {
+      "business_type": { "local": "Local service", "course": "Online course / info-product", "ecommerce": "E-commerce", "professional": "Professional services", "creator": "Creator / personal brand", "other": "Other" },
+      "revenue": { "pre": "Pre-revenue", "lt2k": "Under £2k", "2-10k": "£2–10k", "10-50k": "£10–50k", "50-200k": "£50–200k", "gt200k": "Over £200k" },
+      "time_in_business": { "lt1y": "Under 1 year", "1-3y": "1–3 years", "3-10y": "3–10 years", "gt10y": "10+ years" },
+      "pain": { "leads": "Not enough leads", "conversion": "Leads don't convert", "content-time": "No time for content", "website": "Website doesn't sell", "ads-cost": "Ads too expensive", "follow-up": "Leads go cold — no follow-up", "not-found": "Don't show up on Google or AI", "other": "Other" },
+      "pain_duration": { "lt3m": "Under 3 months", "3-12m": "3–12 months", "1-3y": "1–3 years", "since-start": "Since I started" },
+      "tried": { "myself": "Did it myself", "freelancer": "Hired a freelancer", "agency": "Hired an agency", "course": "Bought a course", "changed-ads": "Changed ads / platform", "nothing": "Nothing yet" },
+      "budget": { "lt500": "Under £500/mo", "500-1500": "£500–1.5k", "1500-5000": "£1.5–5k", "gt5000": "£5k+", "unsure": "Not sure yet" },
+      "timeline": { "now": "This month", "1-3m": "Next 1–3 months", "exploring": "Just exploring" }
+    }
+  },
+  "thanks": {
+    "kicker": "Diagnosis received",
+    "A": { "h1": "We've got it, {name}.", "p": "{pain} for {duration} is costing you every week. You'll get your written diagnosis within 24 hours — or skip the queue:" },
+    "B": { "h1": "We've got it, {name}.", "p": "Your diagnosis lands within 24 hours. Here's something useful while we prepare it:" },
+    "C": { "h1": "Thanks, {name}.", "p": "No rush. Two things worth reading in the meantime:", "later": "Message us when the timing is right." },
+    "wa": "Talk on WhatsApp now",
+    "readMore": "Read:",
+    "fallbackTitle": "We couldn't reach our server",
+    "fallbackText": "Your answers are saved on this device — send them on WhatsApp and we'll take it from there:",
+    "waMsg": "Hi, I'm {name}. I just filled the diagnosis on upmarketingads.com — main issue: {pain}.",
+    "fallbackName": "there", "fallbackPain": "sales", "fallbackDuration": "a while",
+    "pain": { "leads": "Not enough leads", "conversion": "Leads not converting", "content-time": "No time for content", "website": "A website that doesn't sell", "ads-cost": "Expensive ads", "follow-up": "Leads going cold", "not-found": "Not showing up on Google or AI", "other": "What you described" },
+    "duration": { "lt3m": "a few months", "3-12m": "most of a year", "1-3y": "years", "since-start": "as long as you've been in business" }
   }
 }

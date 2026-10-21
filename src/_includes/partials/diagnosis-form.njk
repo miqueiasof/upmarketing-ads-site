@@ -1,0 +1,135 @@
+{%- set f = t.form -%}
+{%- macro radios(name, options) -%}
+<div class="opts" data-group="{{ name }}" role="radiogroup">
+  {%- for value, label in options %}
+  <label class="opt">
+    <input type="radio" name="{{ name }}" value="{{ value }}">
+    <span class="opt__label">{{ label }}</span>
+  </label>
+  {%- endfor %}
+</div>
+<p class="opts__err" data-err-for="{{ name }}" hidden></p>
+{%- endmacro -%}
+{%- macro checks(name, options, max = 0) -%}
+<div class="opts" data-group="{{ name }}"{% if max %} data-max="{{ max }}"{% endif %}>
+  {%- for value, label in options %}
+  <label class="opt">
+    <input type="checkbox" name="{{ name }}[]" value="{{ value }}">
+    <span class="opt__label">{{ label }}</span>
+  </label>
+  {%- endfor %}
+</div>
+<p class="opts__err" data-err-for="{{ name }}" hidden></p>
+{%- endmacro -%}
+
+<form class="diag" id="diagnosis" data-webhook="{{ site.webhook }}" data-lang="{{ lang }}" data-thanks="/diagnosis/thanks/" novalidate>
+  <ol class="diag__progress" aria-label="Progress">
+    {%- for label in f.steps %}
+    <li class="diag__progress-item{% if loop.first %} is-active{% endif %}" data-step-dot="{{ loop.index }}"><span class="mono">{{ loop.index }} — {{ label }}</span></li>
+    {%- endfor %}
+  </ol>
+
+  <fieldset class="diag__step" data-step="1">
+    <legend class="diag__legend">{{ f.steps[0] }}</legend>
+    <div class="diag__q">
+      <p class="diag__label">{{ f.q.business_type }}</p>
+      {{ radios('business_type', f.opts.business_type) }}
+    </div>
+    <div class="diag__q">
+      <label class="diag__label" for="website">{{ f.q.website }}</label>
+      <input class="input" type="url" id="website" name="website" placeholder="https://" autocomplete="url">
+    </div>
+    <div class="diag__q">
+      <p class="diag__label">{{ f.q.revenue }}</p>
+      {{ radios('revenue', f.opts.revenue) }}
+    </div>
+    <div class="diag__q">
+      <p class="diag__label">{{ f.q.time_in_business }}</p>
+      {{ radios('time_in_business', f.opts.time_in_business) }}
+    </div>
+    <div class="diag__nav">
+      <button type="button" class="btn btn--primary" data-next>{{ f.next }}</button>
+    </div>
+  </fieldset>
+
+  <fieldset class="diag__step" data-step="2" hidden>
+    <legend class="diag__legend">{{ f.steps[1] }}</legend>
+    <div class="diag__q">
+      <p class="diag__label">{{ f.q.pain }}</p>
+      {{ checks('pain', f.opts.pain, 3) }}
+      <input class="input input--inline" type="text" name="pain_other" maxlength="80" placeholder="{{ f.q.pain_other }}" hidden data-shown-by="pain:other">
+    </div>
+    <div class="diag__q">
+      <p class="diag__label">{{ f.q.pain_duration }}</p>
+      {{ radios('pain_duration', f.opts.pain_duration) }}
+    </div>
+    <div class="diag__q">
+      <p class="diag__label">{{ f.q.tried }}</p>
+      {{ checks('tried', f.opts.tried) }}
+    </div>
+    <div class="diag__q">
+      <label class="diag__label" for="tried_why">{{ f.q.tried_why }}</label>
+      <textarea class="input" id="tried_why" name="tried_why" rows="3" maxlength="300"></textarea>
+    </div>
+    <div class="diag__nav">
+      <button type="button" class="btn btn--ghost" data-back>{{ f.back }}</button>
+      <button type="button" class="btn btn--primary" data-next>{{ f.next }}</button>
+    </div>
+  </fieldset>
+
+  <fieldset class="diag__step" data-step="3" hidden>
+    <legend class="diag__legend">{{ f.steps[2] }}</legend>
+    <div class="diag__q">
+      <p class="diag__label">{{ f.q.services }}</p>
+      <div class="opts" data-group="services">
+        {%- for s in t.services %}
+        <label class="opt">
+          <input type="checkbox" name="services[]" value="{{ s.slug }}">
+          <span class="opt__label">{{ s.name }}</span>
+        </label>
+        {%- endfor %}
+      </div>
+      <p class="opts__err" data-err-for="services" hidden></p>
+    </div>
+    <div class="diag__q">
+      <p class="diag__label">{{ f.q.budget }}</p>
+      {{ radios('budget', f.opts.budget) }}
+    </div>
+    <div class="diag__q">
+      <p class="diag__label">{{ f.q.timeline }}</p>
+      {{ radios('timeline', f.opts.timeline) }}
+    </div>
+    <div class="diag__row">
+      <div class="diag__q">
+        <label class="diag__label" for="diag-name">{{ f.q.name }}</label>
+        <input class="input" type="text" id="diag-name" name="name" autocomplete="name" required>
+        <p class="opts__err" data-err-for="name" hidden></p>
+      </div>
+      <div class="diag__q">
+        <label class="diag__label" for="diag-email">{{ f.q.email }}</label>
+        <input class="input" type="email" id="diag-email" name="email" autocomplete="email" required>
+        <p class="opts__err" data-err-for="email" hidden></p>
+      </div>
+      <div class="diag__q">
+        <label class="diag__label" for="diag-whatsapp">{{ f.q.whatsapp }}</label>
+        <input class="input" type="tel" id="diag-whatsapp" name="whatsapp" autocomplete="tel" placeholder="+44" required>
+        <p class="opts__err" data-err-for="whatsapp" hidden></p>
+      </div>
+    </div>
+    <div class="diag__q">
+      <label class="consent">
+        <input type="checkbox" name="consent" value="yes">
+        <span>{{ f.q.consent }} <a href="/privacy/" target="_blank" rel="noopener">{{ t.foot.privacy }}</a></span>
+      </label>
+      <p class="opts__err" data-err-for="consent" hidden></p>
+    </div>
+    <div class="hp" aria-hidden="true">
+      <label>Company URL <input type="text" name="company_url" tabindex="-1" autocomplete="off"></label>
+    </div>
+    <div class="diag__nav">
+      <button type="button" class="btn btn--ghost" data-back>{{ f.back }}</button>
+      <button type="submit" class="btn btn--primary" data-submit data-sending="{{ f.sending }}">{{ f.submit }}</button>
+    </div>
+  </fieldset>
+</form>
+<script type="application/json" id="diag-i18n">{{ { errRequired: f.errRequired, errEmail: f.errEmail, errConsent: f.errConsent, errMax3: f.errMax3 } | jsonld | safe }}</script>

@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+lang: en
+permalink: /diagnosis/thanks/
+title: Thank you — UP Marketing Ads
+description: Your diagnosis request was received.
+canonical: /diagnosis/thanks/
+noindex: true
+extraCss:
+  - /assets/css/form.css
+extraModules:
+  - /assets/js/thanks.js
+---
+{%- set strings = { en: i18n.en.thanks, pt: i18n.pt.thanks, fr: i18n.fr.thanks } -%}
+<section class="container thanks" id="thanks" data-whatsapp="{{ site.whatsapp }}">
+  <p class="mono">{{ i18n.en.thanks.kicker }}</p>
+  <h1>{{ i18n.en.thanks.C.h1 | replace('{name}', '') }}</h1>
+  <a class="btn btn--primary thanks__wa" href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">{{ i18n.en.thanks.wa }}</a>
+</section>
+<script type="application/json" id="thanks-i18n">{{ strings | jsonld | safe }}</script>

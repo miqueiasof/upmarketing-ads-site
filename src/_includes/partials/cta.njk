@@ -5,6 +5,6 @@
       <h2>{{ t.cta.h2 }}</h2>
     </div>
     <p class="muted section__intro reveal">{{ t.cta.text }}</p>
-    <a class="btn btn--primary reveal" href="{{ diagnosisPath or '/diagnosis/' }}">{{ t.cta.button }}</a>
+    {% include "partials/diagnosis-form.njk" %}
   </div>
 </section>

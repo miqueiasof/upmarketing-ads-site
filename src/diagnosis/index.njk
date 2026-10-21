@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+lang: en
+permalink: /diagnosis/
+title: Free sales diagnosis — UP Marketing Ads, London
+description: Answer three short steps and get a written diagnosis of where your sales are leaking within 24 hours. Free, no automated sales sequence.
+canonical: /diagnosis/
+extraCss:
+  - /assets/css/form.css
+extraModules:
+  - /assets/js/diagnosis.js
+---
+{%- set t = i18n[lang] -%}
+<section class="section">
+  <div class="container">
+    <div class="section__head">
+      <span class="section__num">{{ t.cta.num }}</span>
+      <h1 class="diag__title">{{ t.form.title }}</h1>
+    </div>
+    <p class="muted section__intro">{{ t.form.intro }}</p>
+    {% include "partials/diagnosis-form.njk" %}
+  </div>
+</section>

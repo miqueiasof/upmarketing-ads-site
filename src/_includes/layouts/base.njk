@@ -23,5 +23,8 @@
 {%- for script in extraJs %}
 <script src="{{ script }}" defer></script>
 {%- endfor %}
+{%- for mod in extraModules %}
+<script type="module" src="{{ mod }}"></script>
+{%- endfor %}
 </body>
 </html>

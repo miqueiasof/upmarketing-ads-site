@@ -97,5 +97,42 @@
     "h2": "Descubra onde a sua venda está vazando.",
     "text": "Três passos curtos. Diagnóstico por escrito em até 24 horas. Gratuito.",
     "button": "Pedir diagnóstico gratuito"
+  },
+  "form": {
+    "title": "Diagnóstico de vendas gratuito",
+    "intro": "Três passos curtos. Você recebe um diagnóstico por escrito em até 24 horas — sem sequência automática de vendas.",
+    "steps": ["Seu negócio", "O que trava", "Objetivo & contato"],
+    "next": "Continuar", "back": "Voltar", "submit": "Enviar meu diagnóstico", "sending": "Enviando…",
+    "errRequired": "Responda para continuar.", "errEmail": "Digite um e-mail válido.", "errConsent": "Aceite o aviso de privacidade.", "errMax3": "Escolha até 3.",
+    "q": {
+      "business_type": "Que tipo de negócio é?", "website": "Site (opcional)", "revenue": "Faturamento mensal", "time_in_business": "Há quanto tempo você toca esse negócio?",
+      "pain": "O que trava as vendas hoje? Escolha até 3.", "pain_other": "Conta em poucas palavras", "pain_duration": "Há quanto tempo isso acontece?", "tried": "O que você já tentou?", "tried_why": "Por que não funcionou? (opcional)",
+      "services": "Com o que você quer ajuda?", "budget": "Orçamento mensal que você considera", "timeline": "Quando quer começar?", "name": "Seu nome", "email": "E-mail", "whatsapp": "WhatsApp (com DDI)",
+      "consent": "Autorizo a UP Marketing Ads a guardar minhas respostas para preparar meu diagnóstico, conforme o aviso de"
+    },
+    "opts": {
+      "business_type": { "local": "Serviço local", "course": "Curso online / infoproduto", "ecommerce": "E-commerce", "professional": "Serviços profissionais", "creator": "Criador / marca pessoal", "other": "Outro" },
+      "revenue": { "pre": "Ainda não faturo", "lt2k": "Até £2 mil", "2-10k": "£2–10 mil", "10-50k": "£10–50 mil", "50-200k": "£50–200 mil", "gt200k": "Acima de £200 mil" },
+      "time_in_business": { "lt1y": "Menos de 1 ano", "1-3y": "1–3 anos", "3-10y": "3–10 anos", "gt10y": "10+ anos" },
+      "pain": { "leads": "Poucos leads", "conversion": "Leads não convertem", "content-time": "Sem tempo para conteúdo", "website": "Site não vende", "ads-cost": "Anúncio caro demais", "follow-up": "Lead esfria — sem follow-up", "not-found": "Não apareço no Google nem na IA", "other": "Outro" },
+      "pain_duration": { "lt3m": "Menos de 3 meses", "3-12m": "3–12 meses", "1-3y": "1–3 anos", "since-start": "Desde que comecei" },
+      "tried": { "myself": "Fiz sozinho", "freelancer": "Contratei freelancer", "agency": "Contratei agência", "course": "Comprei curso", "changed-ads": "Troquei anúncio / plataforma", "nothing": "Nada ainda" },
+      "budget": { "lt500": "Até £500/mês", "500-1500": "£500–1,5 mil", "1500-5000": "£1,5–5 mil", "gt5000": "£5 mil+", "unsure": "Ainda não sei" },
+      "timeline": { "now": "Este mês", "1-3m": "Nos próximos 1–3 meses", "exploring": "Só pesquisando" }
+    }
+  },
+  "thanks": {
+    "kicker": "Diagnóstico recebido",
+    "A": { "h1": "Recebido, {name}.", "p": "{pain} há {duration} custa caro toda semana. Seu diagnóstico por escrito chega em até 24 horas — ou fura a fila:" },
+    "B": { "h1": "Recebido, {name}.", "p": "Seu diagnóstico chega em até 24 horas. Enquanto isso, algo útil:" },
+    "C": { "h1": "Obrigado, {name}.", "p": "Sem pressa. Duas leituras que valem enquanto isso:", "later": "Me chama quando for a hora." },
+    "wa": "Falar no WhatsApp agora",
+    "readMore": "Ler:",
+    "fallbackTitle": "Não conseguimos falar com o servidor",
+    "fallbackText": "Suas respostas ficaram salvas neste aparelho — manda pelo WhatsApp que a gente segue de lá:",
+    "waMsg": "Olá, sou {name}. Acabei de preencher o diagnóstico no upmarketingads.com — principal trava: {pain}.",
+    "fallbackName": "", "fallbackPain": "vendas", "fallbackDuration": "um tempo",
+    "pain": { "leads": "Poucos leads", "conversion": "Lead que não converte", "content-time": "Falta de tempo para conteúdo", "website": "Site que não vende", "ads-cost": "Anúncio caro", "follow-up": "Lead esfriando", "not-found": "Não aparecer no Google nem na IA", "other": "O que você descreveu" },
+    "duration": { "lt3m": "alguns meses", "3-12m": "quase um ano", "1-3y": "anos", "since-start": "desde o começo" }
   }
 }
