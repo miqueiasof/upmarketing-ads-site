@@ -24,6 +24,7 @@ const cards = [
   { slug: 'services', kicker: 'Services', title: 'Six services. One sales system.', sub: SERVICE_LIST },
   { slug: 'diagnosis', kicker: 'Free diagnosis', title: 'Where are your sales leaking?', sub: 'Three short steps. A written diagnosis within 24 hours. No automated sales sequence.' },
   { slug: 'london', kicker: 'London', title: 'Sales systems for London businesses, area by area.', sub: 'Fifteen areas, each with its own page — from Westminster to Croydon.' },
+  { slug: 'portfolio', kicker: 'Portfolio', title: 'Four sales systems, live.', sub: 'Websites and funnels built by UP Marketing Ads — identities kept private by agreement.' },
   { slug: 'privacy', kicker: 'Privacy', title: 'How we handle your information.', sub: 'What we collect through the diagnosis and WhatsApp, why, where it is kept and your rights under UK GDPR.' },
   ...services.map((s) => ({ slug: s.slug, kicker: s.kicker, title: s.h1, sub: s.description })),
   ...areas.map((a) => ({ slug: `london-${a.slug}`, kicker: a.borough, title: a.h1, sub: a.description })),

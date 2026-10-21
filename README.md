@@ -10,9 +10,23 @@ Gerado com **Eleventy 3** (Nunjucks) a partir de `src/`. Saída em `dist/`.
 npm install          # uma vez
 npm run dev          # http://localhost:8080 com reload
 npm run build        # gera dist/
-npm test             # testes (node --test "tests/**/*.test.mjs")
+npm test             # testes unitários (build + head/home/score/serviços/regiões/SEO)
+npm run test:e2e     # Playwright local (motion + formulário)
+npm run og           # regenera as OG images (src/assets/img/og/*.jpg, 1200×630) — rodar quando mudar título/descrição de página
 bash scripts/deploy.sh   # build + rsync dist/ -> VPS (/docker/upmarketing/site/)
+npm run test:prod    # smoke contra o site no ar (29 URLs, portfólio, preview 401, OG únicas)
 ```
+
+Lighthouse (relatórios em `docs/lighthouse/`): `lighthouse https://upmarketingads.com/ --output=html --output-path=docs/lighthouse/home`.
+
+## Onde editar
+
+- Textos da home, formulário e obrigado (EN/PT/FR): `src/_data/i18n/{en,pt,fr}.json`.
+- Serviços (6): `src/_data/services.json`. Regiões de Londres (15): `src/_data/areas.json` — cada uma com perfil, 3 cenários, FAQ e vizinhas.
+- Dados do site (WhatsApp, webhook, e-mail do rodapé): `src/_data/site.json` — `email` vazio = não aparece.
+- Mapa de Londres: `src/_includes/partials/london-map.svg.njk` (posições dos pinos).
+- Score do diagnóstico (A/B/C): `src/assets/js/score.js`; e-mail do n8n: `scripts/n8n/`.
+- Privacidade: `src/privacy.njk` (número da empresa ainda em branco).
 
 ## Estrutura
 
