@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{ lang or 'en' }}">
+<head>
+{% include "partials/head.njk" %}
+</head>
+<body>
+{% include "partials/header.njk" %}
+<main id="main">
+{{ content | safe }}
+</main>
+{% include "partials/footer.njk" %}
+<script>
+  (function () {
+    var t = document.querySelector('.nav__toggle'), n = document.getElementById('site-nav');
+    if (!t || !n) return;
+    t.addEventListener('click', function () {
+      var open = n.getAttribute('data-open') === 'true';
+      n.setAttribute('data-open', String(!open));
+      t.setAttribute('aria-expanded', String(!open));
+    });
+  })();
+</script>
+{%- for script in extraJs %}
+<script src="{{ script }}" defer></script>
+{%- endfor %}
+</body>
+</html>

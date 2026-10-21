@@ -1,0 +1,21 @@
+{%- set nav = nav or {
+  services: 'Services', london: 'London', portfolio: 'Portfolio', diagnosis: 'Diagnosis', cta: 'Get your diagnosis'
+} -%}
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="{{ homePath or '/' }}" aria-label="{{ site.name }} — home">
+      <span class="brand__up">UP</span>
+      <span class="brand__rest">Marketing&nbsp;Ads</span>
+    </a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a class="nav__link" href="/services/"{% if page.url.startsWith('/services/') %} aria-current="page"{% endif %}>{{ nav.services }}</a>
+      <a class="nav__link" href="/london/"{% if page.url.startsWith('/london/') %} aria-current="page"{% endif %}>{{ nav.london }}</a>
+      <a class="nav__link" href="/portfolio/">{{ nav.portfolio }}</a>
+      <a class="nav__link" href="/diagnosis/"{% if page.url.startsWith('/diagnosis/') %} aria-current="page"{% endif %}>{{ nav.diagnosis }}</a>
+      <a class="btn btn--primary btn--sm" href="/diagnosis/">{{ nav.cta }}</a>
+    </nav>
+  </div>
+</header>

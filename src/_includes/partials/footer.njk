@@ -1,0 +1,20 @@
+{%- set foot = foot or { privacy: 'Privacy', whatsapp: 'WhatsApp', tagline: 'UP Marketing Ads — London' } -%}
+<footer class="footer">
+  <div class="container footer__inner">
+    <span class="mono">{{ foot.tagline }}</span>
+    <div class="footer__links">
+      <a class="footer__link" href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">{{ foot.whatsapp }} {{ site.whatsappDisplay }}</a>
+      {%- if site.email %}
+      <a class="footer__link" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      {%- endif %}
+      <a class="footer__link" href="/privacy/">{{ foot.privacy }}</a>
+    </div>
+    {%- if alternates %}
+    <nav class="lang" aria-label="Language">
+      {%- for code, path in alternates %}
+      <a class="lang__item" href="{{ path }}" hreflang="{{ code }}"{% if code == (lang or 'en') %} aria-current="true"{% endif %}>{{ code | upper }}</a>
+      {%- endfor %}
+    </nav>
+    {%- endif %}
+  </div>
+</footer>

@@ -1,0 +1,32 @@
+:root {
+  --bg: #0A1428;
+  --deep: #060D1C;
+  --panel: #0D1830;
+  --text: #EEF2F8;
+  --muted: #7C8BA3;
+  --line: rgba(238, 242, 248, 0.12);
+  --line-strong: rgba(238, 242, 248, 0.25);
+  --accent: #3DE8C8;
+  --accent-ink: #0A1428;
+
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-text: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --text-display: clamp(2.6rem, 7vw, 6rem);
+  --text-h2: clamp(1.8rem, 3.6vw, 3.2rem);
+  --text-h3: clamp(1.25rem, 2vw, 1.6rem);
+  --text-body: 1.0625rem;
+  --text-small: 0.9375rem;
+  --text-mono: 11px;
+  --tracking-mono: 0.2em;
+
+  --gutter: clamp(24px, 6vw, 96px);
+  --section-y: clamp(64px, 11vh, 130px);
+  --container: 1200px;
+  --radius: 10px;
+  --radius-sm: 2px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur: 0.35s;
+}
