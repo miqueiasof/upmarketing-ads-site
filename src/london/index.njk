@@ -1,0 +1,80 @@
+---
+layout: layouts/base.njk
+permalink: /london/
+title: Digital marketing agency in London — sales systems by area | UP Marketing Ads
+description: Websites, SEO & AI search, content, video, AI automation and paid ads for London businesses — with dedicated pages for 15 areas from Westminster to Croydon.
+canonical: /london/
+---
+{%- set t = i18n.en -%}
+<section class="section page-hero">
+  <div class="container">
+    <p class="mono">London</p>
+    <h1>Sales systems for London businesses, area by area.</h1>
+    <div class="page-hero__intro">
+      <p>London is not one market. A clinic in Marylebone, a studio in Hackney Wick and a trades company in Purley sell to different people who search in different words. We build each part of your sales system — website, search and AI visibility, content, video, automation, ads — around the area you actually serve.</p>
+      <p>Based in London, working in English, Portuguese and French. No office visits required: the diagnosis, the build and the reporting all happen online, and we meet in person when it helps.</p>
+    </div>
+    <a class="btn btn--primary" href="/diagnosis/">{{ t.cta.button }}</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head"><h2>Where we work</h2></div>
+    <p class="muted section__intro">Fifteen areas with their own page, written for that area's businesses and customers. Don't see yours? We work across Greater London — ask in the diagnosis.</p>
+    {% include "partials/london-map.svg.njk" %}
+    <div class="area-grid" style="margin-top: clamp(28px, 5vh, 48px)">
+      {%- for a in areas %}
+      <a href="/london/{{ a.slug }}/"><span>{{ a.name }}</span><span aria-hidden="true">→</span></a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head"><h2>{{ t.servicesSection.h2 }}</h2></div>
+    <div class="services">
+      {%- for s in services %}
+      <a class="service-card" href="/services/{{ s.slug }}/">
+        <span class="service-card__num mono">0{{ loop.index }}</span>
+        <h3 class="service-card__title">{{ s.name }}</h3>
+        <p class="service-card__blurb">{{ s.description }}</p>
+        <span class="service-card__arrow" aria-hidden="true">→</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section__head"><h2>Questions</h2></div>
+    <div class="faq">
+      <details class="faq__item" open>
+        <summary class="faq__q"><span>Why pages for each area instead of one London page?</span><span class="faq__icon" aria-hidden="true">+</span></summary>
+        <p class="faq__a">Because Londoners search by area — "accountant Canary Wharf", "physio Kentish Town" — and because each area has different customers and competitors. A single London page rarely ranks for any of them. Each of our area pages is written for that place, not copied with the name changed.</p>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q"><span>Do you only work with businesses in these fifteen areas?</span><span class="faq__icon" aria-hidden="true">+</span></summary>
+        <p class="faq__a">No. We work across Greater London, the UK and Europe. These are the areas where we publish dedicated guidance; the diagnosis is open to everyone.</p>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q"><span>Do we need to meet in person?</span><span class="faq__icon" aria-hidden="true">+</span></summary>
+        <p class="faq__a">Not for the diagnosis or the build. We meet in London when it helps the project — shoots, workshops, launches.</p>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q"><span>How do we start?</span><span class="faq__icon" aria-hidden="true">+</span></summary>
+        <p class="faq__a">Fill in the free diagnosis: three short steps, a written reply within 24 hours, and a WhatsApp number to talk it through.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section cta-final">
+  <div class="container">
+    <div class="section__head"><span class="section__num">{{ t.cta.num }}</span><h2>{{ t.cta.h2 }}</h2></div>
+    <p class="muted section__intro">{{ t.cta.text }}</p>
+    <a class="btn btn--primary" href="/diagnosis/">{{ t.cta.button }}</a>
+  </div>
+</section>

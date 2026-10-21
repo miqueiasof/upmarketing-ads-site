@@ -1,0 +1,405 @@
+[
+  {
+    "slug": "westminster",
+    "name": "Westminster",
+    "borough": "City of Westminster",
+    "h1": "Digital marketing & sales systems in Westminster, London",
+    "title": "Digital marketing agency in Westminster, London — websites, SEO, AI automation | UP Marketing Ads",
+    "description": "Sales systems for Westminster businesses: websites that convert, local SEO around Victoria, Pimlico and Marylebone, content, video and AI agents that answer enquiries 24/7.",
+    "profile": [
+      "Westminster is the part of London the rest of the world thinks of as London: Parliament, Whitehall, the West End theatres, Oxford Street. Underneath the postcard sits one of the densest commercial districts in Europe — head offices along Victoria Street, hospitality around Victoria and St James's, private clinics and consultancies in Marylebone, and a huge daytime population of civil servants, lawyers and tourists who all need somewhere to eat, meet, train and be looked after.",
+      "The businesses that do well here are rarely the cheapest. They are the ones that look credible in the first five seconds, because the customer is comparing them with a dozen alternatives within a ten-minute walk. A Westminster dentist, a Pimlico lettings agent or a Victoria coworking space is judged on polish before price. Most of their websites, however, were built years ago and have never been measured.",
+      "Search behaviour follows the geography. People do not search for a service in \"London\"; they search in Victoria, in Marylebone, in Pimlico, often from a phone while walking. Ranking for those micro-areas, and answering the AI assistants that now summarise them, is where the opportunity sits for a local operator who takes it seriously."
+    ],
+    "scenarios": [
+      { "business": "Private clinic near Marylebone", "problem": "Fully booked with returning patients, but new-patient enquiries come through word of mouth only; the website has no booking path and ranks for nothing.", "whatWeDo": "Rebuild the site around treatments and locations, add structured data and a Marylebone-specific page, and put a WhatsApp agent on the enquiry line that books consultations and sends reminders." },
+      { "business": "Hospitality group around Victoria", "problem": "Three venues, three Instagram accounts, zero system. Content is posted when someone remembers; events sell out late or not at all.", "whatWeDo": "One content calendar across the venues, short video produced weekly from a single shoot, and Meta ads for each event with a landing page that captures bookings and follows up." },
+      { "business": "Consultancy on Victoria Street", "problem": "Senior partners want inbound leads from corporates but the only lead source is LinkedIn posting by one partner, done inconsistently.", "whatWeDo": "Positioning workshop, a credibility-first website with case studies, AI search optimisation for the firm's niche, and a LinkedIn content pipeline the partners only need to approve." }
+    ],
+    "topServices": ["websites", "seo-ai-search", "ai-automation"],
+    "faq": [
+      { "q": "Do you work with businesses in all of Westminster or only the centre?", "a": "All of it: Victoria, Pimlico, Belgravia, Marylebone, Soho, Covent Garden, Paddington and St John's Wood. We build separate local pages when a business serves several of these distinct areas." },
+      { "q": "Our customers are mostly office workers. Does local SEO still matter?", "a": "Even more. A workforce that commutes in searches \"near me\" at lunchtime and after work, from a phone. Being the obvious answer within five hundred metres of the office is a real advantage." },
+      { "q": "Can you run the ads and build the website at the same time?", "a": "Yes, and we recommend it. The page and the campaign are designed together so the ad promise matches the page, which is what keeps the cost per lead down." },
+      { "q": "How do we start?", "a": "Fill in the free diagnosis. Within 24 hours you get a written assessment of where your sales are leaking and what we would fix first." }
+    ],
+    "neighbours": ["mayfair-soho", "kensington-chelsea", "camden"]
+  },
+  {
+    "slug": "city-of-london",
+    "name": "City of London",
+    "borough": "City of London",
+    "h1": "Digital marketing & sales systems in the City of London",
+    "title": "Digital marketing agency in the City of London — B2B websites, SEO, AI agents | UP Marketing Ads",
+    "description": "B2B sales systems for firms in the Square Mile: credibility-first websites, AI search visibility, LinkedIn content and automation for professional services, fintech and advisory.",
+    "profile": [
+      "The Square Mile is the oldest business district in Britain and still one of the most concentrated: banks, insurers, law firms, accountancies, fintechs and the ecosystem that serves them — recruiters, consultants, IT providers, serviced offices, restaurants that live on expense accounts. Around 600,000 people work here on a weekday and a tiny fraction live here, which means almost every customer is a professional buying on behalf of a company.",
+      "That changes everything about marketing. A City buyer does not respond to urgency or discount. They respond to evidence: who else uses you, what the process looks like, whether you understand their regulatory world. Websites that win here are quiet, specific and well-structured. They answer the questions a procurement team will ask before the first call, and they load instantly on a corporate laptop with a strict firewall.",
+      "Discovery has also moved. Associates and analysts increasingly ask AI assistants for shortlists — \"compliance consultants for a London fintech\", \"payroll providers for a 50-person firm in EC2\". Firms that have made their expertise legible to those systems get recommended; firms with a PDF brochure and a contact page do not.",
+      "The City also runs on referral, and a good system does not replace that — it makes every referral land. The partner who is recommended over lunch is checked online before the email is sent."
+    ],
+    "scenarios": [
+      { "business": "Boutique advisory firm, EC2", "problem": "Excellent reputation among existing clients, invisible to anyone who has not been referred. The website is a logo, three paragraphs and a map.", "whatWeDo": "Positioning around a narrow specialism, a site built on case studies and process, AI search optimisation for that specialism, and a monthly LinkedIn pipeline for the partners." },
+      { "business": "IT services provider for financial firms", "problem": "Runs Google Ads on generic terms and pays City click prices for leads that are mostly students and small shops.", "whatWeDo": "Rebuild the campaigns around sector-specific terms, add a landing page per sector, and route every enquiry through an AI agent that qualifies company size before a human spends time." },
+      { "business": "Corporate hospitality venue", "problem": "Event bookings depend on two account managers' inboxes; enquiries outside office hours wait until Monday.", "whatWeDo": "An AI enquiry agent on the website and email that checks availability, captures requirements and books a viewing, with the CRM updated automatically." }
+    ],
+    "topServices": ["seo-ai-search", "websites", "ai-automation"],
+    "faq": [
+      { "q": "Do you understand regulated industries?", "a": "We have built systems for businesses selling across nine countries with different consumer rules, and we design copy and automation to be reviewed by compliance before it goes live. We do not give legal advice; we make the review easy." },
+      { "q": "Our sales cycle is six months. Can marketing help?", "a": "Yes — long cycles are exactly where content, follow-up automation and AI search visibility pay off. The goal is to be the firm the buyer already trusts by the time procurement opens." },
+      { "q": "Can we keep our existing CRM?", "a": "Almost certainly. We connect to most CRMs, and if yours has an API, our automations will write into it." },
+      { "q": "How quickly can we see something?", "a": "A diagnosis in 24 hours, a landing page in two to three weeks, a full site in four to eight. AI search and SEO build over months, and we show the progress monthly." }
+    ],
+    "neighbours": ["shoreditch", "southwark", "islington"]
+  },
+  {
+    "slug": "canary-wharf",
+    "name": "Canary Wharf",
+    "borough": "Tower Hamlets",
+    "h1": "Digital marketing & sales systems in Canary Wharf, London",
+    "title": "Digital marketing agency in Canary Wharf — websites, SEO, automation for the Docklands | UP Marketing Ads",
+    "description": "Sales systems for Canary Wharf and the Docklands: lead generation for B2B firms, local SEO for the fast-growing residential side, content and AI automation.",
+    "profile": [
+      "Canary Wharf started as a financial estate and has become a district. The towers still house global banks, law firms and professional services, but the ground floors and the surrounding Isle of Dogs are now full of residents: tens of thousands of new flats in Wood Wharf, South Quay and across the water in Greenwich Peninsula. The estate runs its own shopping centre, gyms, clinics, restaurants and a growing number of independent operators who serve both the workers and the people who live here.",
+      "That double audience is the opportunity and the trap. A café, a physiotherapist or a dog groomer in E14 has two completely different customers with different hours and different searches — the analyst at 12:30 on a Tuesday and the resident at 10:00 on a Saturday. Marketing that speaks to one and ignores the other leaves half the revenue on the table.",
+      "For the B2B firms, the challenge is different: differentiation in a place where every competitor has the same postcode and the same lobby. Credibility content, precise positioning and visibility in AI-generated shortlists matter more here than in almost any other part of London. The firms that win the shortlist are the ones whose expertise can be read and quoted by a machine — clear service pages, named specialisms, published answers to the questions a buyer actually asks."
+    ],
+    "scenarios": [
+      { "business": "Wellness clinic on the estate", "problem": "Busy at lunchtime, empty at weekends. Instagram is pretty but brings nobody; Google Business Profile has never been touched.", "whatWeDo": "Two audiences, two offers: a lunchtime express menu promoted via LinkedIn and Meta ads to workers, and a weekend family programme ranked locally for residents, with online booking and automated reminders." },
+      { "business": "Fintech scale-up, 40 people", "problem": "Product is strong, inbound is zero. The site talks about features; buyers search for outcomes and compliance questions.", "whatWeDo": "Reposition around the buyer's problem, build comparison and guide pages that AI assistants can cite, and connect the demo form to an agent that qualifies and books within minutes." },
+      { "business": "Property lettings agency, Isle of Dogs", "problem": "Hundreds of enquiries a month on portals, most answered too late. No follow-up with applicants who were not placed.", "whatWeDo": "WhatsApp agent for first response and viewing booking, CRM automation that keeps applicants warm, and a landlord-facing landing page with ads targeted at E14 owners." }
+    ],
+    "topServices": ["ai-automation", "paid-ads", "websites"],
+    "faq": [
+      { "q": "Do you cover the whole of E14 and the Docklands?", "a": "Yes: Canary Wharf, Wood Wharf, South Quay, Millwall, Cubitt Town, Poplar and Blackwall, plus the Greenwich Peninsula across the river." },
+      { "q": "We rent space on the estate. Does the estate's own marketing help us?", "a": "It raises footfall but it does not send you customers. Your own local SEO, business profile and content decide whether people walk into your door or the one next to it." },
+      { "q": "Can you handle two different audiences in one website?", "a": "That is often the main job here. We design distinct paths for workers and residents from the first screen, with separate offers and tracking for each." },
+      { "q": "What does the diagnosis cover?", "a": "Your current site, search visibility, lead handling and follow-up — and an honest view of which of the six services would move revenue first." }
+    ],
+    "neighbours": ["greenwich", "stratford", "city-of-london"]
+  },
+  {
+    "slug": "shoreditch",
+    "name": "Shoreditch",
+    "borough": "Hackney / Tower Hamlets",
+    "h1": "Digital marketing & sales systems in Shoreditch, London",
+    "title": "Digital marketing agency in Shoreditch — startups, studios, brands | UP Marketing Ads",
+    "description": "Sales systems for Shoreditch startups, creative studios and brands: positioning that cuts through, content and short video, AI automation and performance ads.",
+    "profile": [
+      "Shoreditch is where London's tech and creative economies overlap. Old Street roundabout gave the area its \"Silicon Roundabout\" nickname; two decades on, the streets between Great Eastern Street, Brick Lane and Hoxton are full of software companies, design studios, agencies, direct-to-consumer brands, coworking spaces, bars and the restaurants that feed them all. The talent is young, the rents are high and the competition for attention is relentless.",
+      "Everyone here already does marketing. That is the problem. A Shoreditch founder has a Notion page of growth tactics, three half-used tools and a feed full of competitors doing the same reels. What is usually missing is a system: a single clear position, a page that converts the attention, and automation that follows up while the team ships product. Taste matters in this postcode — a generic template is a credibility cost — but taste without a funnel is just an expensive portfolio.",
+      "The buyers are sophisticated too. Investors, B2B customers and talent all check a company out through search and, increasingly, through AI assistants before they reply. Being legible to those systems, in the company's actual voice, is now part of the product.",
+      "We build with the same tools the founders here use — sites as code, measurable from day one, designed to be extended by the team rather than locked to an agency."
+    ],
+    "scenarios": [
+      { "business": "B2B SaaS, seed stage", "problem": "Founders are doing all the content themselves; the website changes every month and nothing is measured. Demo requests are a trickle.", "whatWeDo": "Lock the positioning, rebuild the site as a conversion path with real proof, build an AI agent that qualifies and books demos, and run a focused LinkedIn and Google programme with weekly numbers." },
+      { "business": "Independent design studio", "problem": "Beautiful work, all referrals. Zero inbound. The site is a gallery with no words.", "whatWeDo": "Case studies written for buyers rather than peers, a services structure that search engines and AI can read, and a short-video series showing the studio's process." },
+      { "business": "DTC brand with a Shoreditch store", "problem": "Paid social cost per purchase has doubled in a year; creative is produced in bursts and burns out fast.", "whatWeDo": "A weekly creative pipeline mixing UGC, AI-assisted variants and founder-led video, tested in volume, plus a local campaign driving store visits with measurable offers." }
+    ],
+    "topServices": ["websites", "social-media-content", "paid-ads"],
+    "faq": [
+      { "q": "We already have an in-house marketer. Where do you fit?", "a": "We build the system and the parts that need specialist hands — positioning, site, automation, video pipeline — and your marketer runs the day-to-day with far better tools. Many clients keep both." },
+      { "q": "Can you match a strong brand identity we already have?", "a": "Yes. We work from your design system rather than imposing ours, and we extend it where the sales path needs components you do not have yet." },
+      { "q": "Do you do technical SEO for a Next.js or headless site?", "a": "Yes. Our own sites are built as code, and most of the SEO work on modern stacks is structural: rendering, metadata, schema, internal links and speed." },
+      { "q": "What is the quickest win for a startup?", "a": "Usually the follow-up: an agent that answers every enquiry in seconds and books the call. It turns demand you already have into pipeline before you buy more traffic." }
+    ],
+    "neighbours": ["hackney", "islington", "city-of-london"]
+  },
+  {
+    "slug": "mayfair-soho",
+    "name": "Mayfair & Soho",
+    "borough": "City of Westminster",
+    "h1": "Digital marketing & sales systems in Mayfair & Soho, London",
+    "title": "Digital marketing agency in Mayfair & Soho — luxury, hospitality, private services | UP Marketing Ads",
+    "description": "Discreet, premium sales systems for Mayfair and Soho: luxury brands, members' clubs, private clinics, galleries, restaurants and personal brands that need polish and privacy.",
+    "profile": [
+      "Mayfair and Soho sit next to each other and could not be more different in tone: Mayfair is galleries, private banks, members' clubs, tailors, luxury retail on Bond Street and discreet clinics on Harley Street's edge; Soho is restaurants, bars, post-production houses, media companies and nightlife. What they share is a clientele that expects everything to feel considered, and a market where reputation travels fast in both directions.",
+      "Marketing here is an exercise in restraint. The wrong tone — loud offers, countdown timers, stock photography — costs trust instantly. The right tone is editorial: typography, photography, pacing, and copy that sounds like the person behind the business. Privacy is part of the product: enquiry forms, client data and follow-up must be handled as carefully as the front-of-house experience.",
+      "The customers, meanwhile, behave like everyone else when they search. They ask for \"private dentist Mayfair\", \"members' club Soho\", \"tailor near Savile Row\", and they ask AI assistants for recommendations. Premium businesses that are invisible in those answers hand the client to whoever appears.",
+      "Our work in this segment has included a fully private, multi-language site with its own secure enquiry vault — the kind of build where discretion is a requirement, not a preference."
+    ],
+    "scenarios": [
+      { "business": "Luxury personal brand", "problem": "A private, high-value service that depends entirely on discretion and on a first impression made online. The existing site looks like a template and leaks enquiries.", "whatWeDo": "An editorial one-page site with custom motion and photography direction, a private enquiry form with its own secure vault, an admin panel, cookieless analytics and multi-language pages for a second market — all live in production." },
+      { "business": "Members' club in Soho", "problem": "Membership enquiries arrive by email and are answered when someone has time; the waiting list is managed in a spreadsheet.", "whatWeDo": "An application form that qualifies quietly, automation that acknowledges within seconds and schedules a visit, and a content programme that keeps the club visible without feeling promotional." },
+      { "business": "Gallery on Cork Street", "problem": "Strong collector base, no digital presence for new collectors; exhibitions announced by printed card and a mailing list that has not been touched in years.", "whatWeDo": "A site built around artists and works with structured data for search, an exhibition email flow that actually gets sent, and short video for each opening." }
+    ],
+    "topServices": ["websites", "seo-ai-search", "ai-automation"],
+    "faq": [
+      { "q": "How do you handle confidentiality?", "a": "Client identities never appear in our portfolio without agreement, enquiry data is stored on infrastructure we control, and agreements can include NDA terms. Discretion is a feature of how we work, not a favour." },
+      { "q": "Can you work with our photographer and designer?", "a": "Gladly. We bring structure, copy, build and measurement; strong existing creative partners make the result better." },
+      { "q": "Is AI automation appropriate for a premium service?", "a": "When it is designed well, yes. An agent that acknowledges an enquiry within seconds, in the right tone, and hands over to a human for anything personal is a better experience than an inbox that replies the next day." },
+      { "q": "Do you work in languages other than English?", "a": "English, Portuguese and French natively, and we have shipped multi-language sites for clients with international clientele." }
+    ],
+    "neighbours": ["westminster", "kensington-chelsea", "camden"]
+  },
+  {
+    "slug": "camden",
+    "name": "Camden",
+    "borough": "London Borough of Camden",
+    "h1": "Digital marketing & sales systems in Camden, London",
+    "title": "Digital marketing agency in Camden — King's Cross, Camden Town, Kentish Town | UP Marketing Ads",
+    "description": "Sales systems for Camden businesses from King's Cross to Hampstead: websites, local SEO, content, video and AI automation for independents, studios and the knowledge economy.",
+    "profile": [
+      "Camden is several economies in one borough. King's Cross has been rebuilt into a campus for Google, universities, biotech and design; Camden Town is still music venues, markets and independent retail; Kentish Town and Hampstead are villages of cafés, clinics, schools and professional practices. The borough also holds a huge student and academic population around UCL and the hospitals of the Euston Road.",
+      "For a local business this means the customer base is unusually mixed — tourists on a Saturday, students in term time, knowledge workers all week, residents all year. The businesses that thrive have a clear idea of who they are for and show it online in seconds. The ones that struggle try to be everything to the whole borough and end up invisible to everyone.",
+      "Search is intensely local here. \"Physio Kentish Town\", \"co-working King's Cross\", \"vet Hampstead\" — each area has its own search volume and its own competitors. One page for \"Camden\" rarely ranks for any of them. The work is to be specific, consistently, and to let AI assistants read that specificity.",
+      "Camden also rewards businesses that own their audience. The borough's venues, markets and independents have historically depended on footfall and on platforms that take a cut and keep the data. A direct relationship — your list, your bookings, your WhatsApp conversations, your reviews — is worth more every year, and it is the part of the system most local businesses here have never built."
+    ],
+    "scenarios": [
+      { "business": "Independent music venue, Camden Town", "problem": "Sells tickets through third-party platforms that own the customer data; social reach has collapsed and event promotion is a last-minute scramble.", "whatWeDo": "A site that captures the audience directly, a weekly short-video pipeline from live footage, event-level Meta campaigns and automated email and WhatsApp reminders that fill rooms early." },
+      { "business": "Biotech services company, King's Cross", "problem": "Technical team, no marketing. Buyers are research directors who search precisely and verify thoroughly.", "whatWeDo": "A content and AI-search programme around the company's exact techniques, a site that reads like documentation with a sales path, and a demo-request flow with automated qualification." },
+      { "business": "Family clinic in Hampstead", "problem": "Full of regulars, but new families in the area find three competitors first. Reviews are strong but scattered.", "whatWeDo": "Local SEO for Hampstead and Belsize Park, review consolidation, a booking path on the site and an agent that answers new-patient questions outside hours." }
+    ],
+    "topServices": ["seo-ai-search", "websites", "social-media-content"],
+    "faq": [
+      { "q": "We are a small independent. Is this affordable?", "a": "Most of our clients are owner-led. We size the work to what moves revenue first, and the diagnosis tells you whether a single landing page and an agent would do before anything bigger." },
+      { "q": "Can you help us own our audience instead of relying on platforms?", "a": "That is one of the main reasons to build a system: your site, your list, your WhatsApp conversations, your data. Platforms become channels, not landlords." },
+      { "q": "Do you produce video in Camden?", "a": "We edit and direct; for shoots we work with trusted local crews when needed, and much of the best short-form content is phone footage edited properly." },
+      { "q": "How do we start?", "a": "The free diagnosis: three short steps, written reply within 24 hours." }
+    ],
+    "neighbours": ["islington", "westminster", "mayfair-soho"]
+  },
+  {
+    "slug": "kensington-chelsea",
+    "name": "Kensington & Chelsea",
+    "borough": "Royal Borough of Kensington and Chelsea",
+    "h1": "Digital marketing & sales systems in Kensington & Chelsea, London",
+    "title": "Digital marketing agency in Kensington & Chelsea — premium local businesses, clinics, interiors | UP Marketing Ads",
+    "description": "Sales systems for Kensington and Chelsea: premium clinics, interiors and property, schools and tutors, restaurants and personal brands that sell on trust and presentation.",
+    "profile": [
+      "The Royal Borough is residential London at its most affluent: Kensington, Chelsea, Notting Hill, Holland Park, South Kensington's museums and the Earl's Court regeneration. The businesses here serve demanding households — private healthcare and aesthetics, interior designers and architects, estate agents, tutors and schools, personal trainers, restaurants, boutiques — and they live or die on reputation within a few square miles.",
+      "Word of mouth is powerful here and it is also fragile. A new resident, a family relocating from abroad, a buyer of a flat in Chelsea Harbour — all of them research online before they ask a neighbour, and they expect the online experience to match the price point. Many local businesses have excellent work and a website that undersells it badly.",
+      "Discretion and polish are the brief. Copy that sounds like a person, photography that is real, an enquiry process that feels personal from the first second, and search visibility for the exact street-level terms customers use: \"interior designer Notting Hill\", \"private GP Chelsea\", \"maths tutor Kensington\".",
+      "Many clients here are international — families on a posting, buyers from abroad, students at Imperial — so a site that reads naturally in a second language, and an enquiry process that works across time zones, quietly widens the market. We work in English, Portuguese and French and build multi-language pages as standard where the clientele calls for it."
+    ],
+    "scenarios": [
+      { "business": "Interior design studio, Chelsea", "problem": "Projects come from referrals and a single magazine feature years ago. The site is a slideshow with no path to enquiry and no search presence.", "whatWeDo": "A portfolio site structured by project type and area, written case studies, schema for search and AI, and a consultation request flow that qualifies budget gently before the first call." },
+      { "business": "Aesthetics clinic, South Kensington", "problem": "Spends on Meta ads with a generic landing page; cost per consultation is rising and the front desk cannot keep up with follow-ups.", "whatWeDo": "Treatment-specific landing pages, creative testing with before-and-after formats that comply with platform rules, and an AI agent that answers questions, books and reminds — reducing no-shows." },
+      { "business": "Independent school tutoring service", "problem": "Seasonal demand around entrance exams; the website is static and enquiries during peak weeks are missed.", "whatWeDo": "Seasonal campaigns with their own pages, local SEO for the target areas, and automated enquiry handling that captures every parent and schedules assessments." }
+    ],
+    "topServices": ["websites", "seo-ai-search", "ai-automation"],
+    "faq": [
+      { "q": "Our clients value privacy. How is their data handled?", "a": "Enquiries are stored on infrastructure we control, access is limited, and automations only hold what is needed to respond. We design the flow to be reviewed with you before it goes live." },
+      { "q": "Can you make our existing site rank without a rebuild?", "a": "Sometimes. The diagnosis tells you honestly whether the current site can carry the work or whether a rebuild is cheaper than patching." },
+      { "q": "Do you serve the whole borough?", "a": "Yes — Kensington, Chelsea, Notting Hill, Holland Park, South Kensington, Earl's Court, Brompton and Knightsbridge — with separate pages when a business serves several distinct areas." },
+      { "q": "What happens after I fill the diagnosis?", "a": "A written diagnosis within 24 hours and a WhatsApp number to discuss it. No automated sales sequence." }
+    ],
+    "neighbours": ["westminster", "mayfair-soho", "richmond"]
+  },
+  {
+    "slug": "islington",
+    "name": "Islington",
+    "borough": "London Borough of Islington",
+    "h1": "Digital marketing & sales systems in Islington, London",
+    "title": "Digital marketing agency in Islington — Angel, Upper Street, Highbury, Clerkenwell | UP Marketing Ads",
+    "description": "Sales systems for Islington businesses from Angel to Highbury and Clerkenwell: independents, agencies, clinics and restaurants that need a clear position and a funnel that works.",
+    "profile": [
+      "Islington runs from Clerkenwell's design and architecture studios, through Angel's restaurants and theatres, up Upper Street's independent retail to Highbury and Archway's residential streets. It has one of the highest densities of restaurants in the country, a strong professional population, and a creative-industries cluster in Clerkenwell that rivals Shoreditch next door.",
+      "The borough's businesses are typically small, owner-led and good at what they do. Their marketing is usually a mix of Instagram, a site built by a friend, and a Google Business Profile with reviews nobody replies to. Demand is there; the system to catch it is not. A restaurant on Upper Street competes with fifty others for the same Friday-night search; a Clerkenwell studio competes with every agency in London for the same client.",
+      "What works here is clarity and consistency: a site that says one thing well, local pages for the distinct areas, a content rhythm that holds, and automation that answers bookings and enquiries at the hours people actually make them — evenings and weekends.",
+      "Islington's professionals are also a B2B audience in their own right. Clerkenwell's studios buy from each other; the law firms and agencies around Farringdon need suppliers; the borough's many small companies need accountants, IT, HR and premises. A business that sells to other businesses here benefits from the same local specificity as a restaurant — \"accountant Clerkenwell\" is a real search — plus a credibility layer: case studies, process, and visibility in the AI-generated shortlists that a busy founder now asks for instead of Googling."
+    ],
+    "scenarios": [
+      { "business": "Restaurant group, Upper Street", "problem": "Two sites, full on weekends, quiet midweek. Bookings arrive via a third-party platform that charges per cover and owns the guest data.", "whatWeDo": "Direct booking on a fast site, midweek offers promoted with precise Meta targeting, a weekly video pipeline from the kitchen, and a guest list that the restaurant actually owns." },
+      { "business": "Architecture practice, Clerkenwell", "problem": "Awards and a strong portfolio, but enquiries come only from past clients. The site is a photo grid with no language a client would search for.", "whatWeDo": "Case studies written around project types and budgets, structured data, AI search visibility for the practice's specialisms, and an enquiry flow that qualifies scope." },
+      { "business": "Physiotherapy clinic, Highbury", "problem": "Fully dependent on GP referrals that are slowing down; no self-referred patients from search.", "whatWeDo": "Condition and treatment pages ranked for Highbury, Holloway and Finsbury Park, online booking with reminders, and an agent that triages new-patient questions." }
+    ],
+    "topServices": ["websites", "social-media-content", "seo-ai-search"],
+    "faq": [
+      { "q": "We are a two-person studio. Can you keep it simple?", "a": "Yes. Often the right first step is one strong landing page, an enquiry agent and a content rhythm you can sustain. We scale from there only if the numbers justify it." },
+      { "q": "Can you reduce our dependence on booking platforms?", "a": "Direct booking on your own site, promoted properly, usually recovers a large share of covers within a few months — and gives you the guest data." },
+      { "q": "How does content work for a restaurant?", "a": "A monthly plan, one short shoot, a week's worth of reels and stories from it, and campaigns tied to the quiet nights. Measured by bookings, not likes." },
+      { "q": "Where do we begin?", "a": "The free diagnosis. Three short steps and a written reply within 24 hours." }
+    ],
+    "neighbours": ["camden", "hackney", "shoreditch"]
+  },
+  {
+    "slug": "hackney",
+    "name": "Hackney",
+    "borough": "London Borough of Hackney",
+    "h1": "Digital marketing & sales systems in Hackney, London",
+    "title": "Digital marketing agency in Hackney — Dalston, Hackney Central, Stoke Newington, Hackney Wick | UP Marketing Ads",
+    "description": "Sales systems for Hackney's independents, makers, studios and venues: honest positioning, content and video with a point of view, and automation that keeps small teams sane.",
+    "profile": [
+      "Hackney is the borough of independents: coffee roasters and breweries, makers and workshops in Hackney Wick, fashion and design studios, bars and venues in Dalston, cafés and family businesses in Stoke Newington and Clapton. Alongside them sits a fast-growing tech and creative workforce that moved east as Shoreditch filled up. It is a borough with a strong identity, and customers here reward businesses that have one too.",
+      "That identity has to survive contact with search. A roaster with a cult following still needs to be found by the person typing \"specialty coffee Dalston\"; a workshop that sells nationally needs a site that converts a visitor from Manchester as well as a neighbour. Many Hackney businesses have brilliant Instagram presences and websites that cannot take an order properly.",
+      "The marketing that fits here is direct and well-made: a site with a real voice, short video that shows the work rather than talks about it, campaigns that respect the audience's intelligence, and automation that gives a small team their evenings back.",
+      "One more thing is specific to Hackney: the audience is often part of the product. Customers wear the brand, bring friends to the venue, post the coffee. A sales system here should make that easy to do and easy to measure — referral links, launch waitlists, event reminders, a store that loads in a second on a phone in the queue. The point is not to make an independent look corporate; it is to give a business with a real following the machinery that the chains already have."
+    ],
+    "scenarios": [
+      { "business": "Coffee roaster, Hackney Wick", "problem": "Wholesale and café trade strong; online subscriptions flat. The shop runs on a template that is slow and has never been optimised.", "whatWeDo": "A fast store with a subscription path, local SEO for the café and national SEO for the product, a content series from the roastery floor, and email and WhatsApp flows that keep subscribers." },
+      { "business": "Fashion label with a Dalston studio", "problem": "Launches sell out to an existing list; nothing grows the list between launches. Paid social has been tried and abandoned.", "whatWeDo": "A launch system: pre-launch content and video, a waitlist page with automation, precisely targeted campaigns around each drop, and reporting that shows exactly what each drop cost and returned." },
+      { "business": "Venue in Dalston", "problem": "Programme is excellent, promotion is chaotic; each promoter posts separately and the venue's own channels are inconsistent.", "whatWeDo": "A single calendar and template system for every event, weekly short video, and automated ticket reminders and follow-ups that fill nights that would otherwise be half-empty." }
+    ],
+    "topServices": ["social-media-content", "video-editing", "websites"],
+    "faq": [
+      { "q": "We do not want to sound like an agency wrote our content.", "a": "Good. We build the voice from your own recordings and past content and you approve everything. If it does not sound like you, it does not ship." },
+      { "q": "Can you help us sell nationally and locally at the same time?", "a": "Yes — different pages, different search strategies, one system. Local pages for Hackney, product pages for the country." },
+      { "q": "Do you work with venues and events?", "a": "Regularly. Event-level campaigns with their own pages and automated reminders are one of the cleanest systems to measure." },
+      { "q": "How do we start?", "a": "The free diagnosis — three short steps, a written reply within 24 hours." }
+    ],
+    "neighbours": ["shoreditch", "islington", "stratford"]
+  },
+  {
+    "slug": "southwark",
+    "name": "Southwark",
+    "borough": "London Borough of Southwark",
+    "h1": "Digital marketing & sales systems in Southwark, London",
+    "title": "Digital marketing agency in Southwark — London Bridge, Borough, Bermondsey, Peckham | UP Marketing Ads",
+    "description": "Sales systems for Southwark businesses from London Bridge and Borough to Bermondsey and Peckham: hospitality, professional services, makers and clinics.",
+    "profile": [
+      "Southwark stretches from the South Bank and London Bridge — the Shard, Guy's Hospital, Borough Market, a wall of offices and hotels — through Bermondsey's converted warehouses and food scene, down to Peckham's creative energy and Dulwich's leafy streets. Few boroughs mix this much: global corporates and family cafés, hospital consultants and furniture makers, tourists and long-term residents.",
+      "For businesses near London Bridge, the audience is largely commuters and visitors with short attention and high expectations: fast search on a phone, immediate decision. For Bermondsey and Peckham, it is a loyal local crowd that discovers through recommendation and Instagram and then verifies on Google. Both audiences now ask AI assistants for \"best\" and \"near me\" lists, and both reward businesses that have made themselves easy to recommend.",
+      "The systems that work here are specific to each neighbourhood: a London Bridge clinic optimised for weekday lunchtime bookings; a Bermondsey restaurant with a direct booking engine and a weekend content rhythm; a Peckham studio with a national online shop and a local footfall campaign.",
+      "Southwark also carries one of the largest hospital and university populations in London — Guy's and St Thomas', King's College, London South Bank — which means a steady flow of staff, students and visiting families who need food, accommodation, healthcare and services near the campus and are new to the area every year. Businesses that speak to that audience specifically, with pages and offers aimed at the hospital corridor or the student year, pick up demand their neighbours never see. The same logic applies to the Elephant and Castle regeneration: thousands of new residents, none of whom have a favourite anything yet."
+    ],
+    "scenarios": [
+      { "business": "Dental practice near London Bridge", "problem": "High-value treatments, website from 2016, enquiries by phone only during office hours — which is exactly when patients cannot call.", "whatWeDo": "A treatment-led site with online booking, local SEO for London Bridge, Borough and Bermondsey, and an AI agent that answers questions and books consultations evenings and weekends." },
+      { "business": "Restaurant in Bermondsey", "problem": "Great reviews, no system. Weekends full, weekdays dependent on luck; the owner posts on Instagram at midnight.", "whatWeDo": "Direct booking, a monthly content plan shot in one session, weekday campaigns targeted at nearby offices and residents, and guest-list automation for returning diners." },
+      { "business": "Furniture maker in Peckham", "problem": "Sells nationally through a marketplace that takes a large cut; own site is an afterthought.", "whatWeDo": "A product-led site that converts, SEO for the product categories, short video showing the making process, and email flows for quotes and repeat buyers." }
+    ],
+    "topServices": ["websites", "ai-automation", "seo-ai-search"],
+    "faq": [
+      { "q": "Do you work with healthcare practices?", "a": "Yes, and we design copy and automation to be reviewed against the relevant professional rules before anything goes live." },
+      { "q": "Our neighbourhoods are very different. One site or several?", "a": "Usually one site with separate local pages and offers per area. Separate sites only when the businesses are genuinely different." },
+      { "q": "Can you get us off marketplace dependence?", "a": "Progressively. A strong own store, search visibility and repeat-buyer automation shift the balance over a few months without abandoning the channel that currently pays the bills." },
+      { "q": "How do we start?", "a": "The free diagnosis — three short steps, written reply within 24 hours." }
+    ],
+    "neighbours": ["city-of-london", "greenwich", "westminster"]
+  },
+  {
+    "slug": "greenwich",
+    "name": "Greenwich",
+    "borough": "Royal Borough of Greenwich",
+    "h1": "Digital marketing & sales systems in Greenwich, London",
+    "title": "Digital marketing agency in Greenwich — Greenwich town, the Peninsula, Woolwich, Eltham | UP Marketing Ads",
+    "description": "Sales systems for Greenwich businesses: tourism and hospitality in the town centre, the new economy on the Peninsula, local services across Woolwich, Charlton and Eltham.",
+    "profile": [
+      "Greenwich has three distinct markets. The historic town — the Observatory, the Cutty Sark, the market and the park — brings millions of visitors a year and sustains restaurants, cafés, tours and independent shops. The Peninsula around the O2 is a new district of apartments, offices, a design hub and large-scale entertainment. Woolwich, Charlton and Eltham are established residential areas with their own high streets, trades and family businesses, now connected by the Elizabeth line.",
+      "Visitor-facing businesses compete for a customer who decides in seconds from a phone, often in another language, and relies on maps, reviews and AI summaries. Resident-facing businesses compete on trust and on being found for very local terms — \"plumber Eltham\", \"dentist Woolwich\", \"nursery Charlton\". Few businesses here do either systematically.",
+      "The Elizabeth line and the Peninsula's growth have changed the catchment: people in Canary Wharf and Stratford now reach Greenwich in minutes. Businesses that position for that wider audience online — not just for the foot traffic outside the door — are growing faster than the ones that wait for it.",
+      "Greenwich also has a strong maker and creative economy — the market's traders, studios around the Peninsula's design district, the university and conservatoire — whose customers are national as much as local. For them the system needs two faces: a local one that brings people to the stall or the studio, and an online one that converts a buyer in Edinburgh. We build both on the same site, with separate pages, separate search strategies and one set of numbers."
+    ],
+    "scenarios": [
+      { "business": "Independent restaurant, Greenwich town", "problem": "Busy with tourists at weekends, invisible to the residents who could fill weekday evenings; reviews are good but scattered across platforms.", "whatWeDo": "Local SEO and business profile work for residents, direct booking, a weekday campaign aimed at Greenwich, Blackheath and the Peninsula, and a content rhythm that shows the kitchen rather than the menu." },
+      { "business": "Trades company based in Eltham", "problem": "Relies on a directory site that charges per lead and sends the same enquiry to five competitors.", "whatWeDo": "A service-and-area site ranked for Eltham, Woolwich, Charlton and Blackheath, an agent that answers enquiries and books quotes immediately, and reviews gathered automatically after each job." },
+      { "business": "Fitness studio on the Peninsula", "problem": "New residents arrive every month and do not know the studio exists; the current marketing is a sign in the window.", "whatWeDo": "A launch-style campaign targeted at the new developments, a trial-offer landing page with automated follow-up, and short video content filmed in the studio." }
+    ],
+    "topServices": ["seo-ai-search", "ai-automation", "paid-ads"],
+    "faq": [
+      { "q": "We get a lot of tourists. Does SEO still matter?", "a": "Tourists search too — in several languages and through maps and AI. Being the recommended answer is worth far more than a sign." },
+      { "q": "Can you build pages for Woolwich and Eltham as well as Greenwich?", "a": "Yes, and we recommend it. Each has its own search volume and competitors; one page for the borough rarely ranks for any of them." },
+      { "q": "Do you help trades and home-services businesses?", "a": "Often. The combination of area pages, instant enquiry handling and automatic review requests is one of the most effective systems we build." },
+      { "q": "How do we start?", "a": "The free diagnosis — three short steps, written reply within 24 hours." }
+    ],
+    "neighbours": ["canary-wharf", "southwark", "stratford"]
+  },
+  {
+    "slug": "stratford",
+    "name": "Stratford",
+    "borough": "London Borough of Newham",
+    "h1": "Digital marketing & sales systems in Stratford, London",
+    "title": "Digital marketing agency in Stratford — Olympic Park, Westfield, East Village, Here East | UP Marketing Ads",
+    "description": "Sales systems for Stratford and the Olympic Park: retail and hospitality around Westfield, the tech and education cluster at Here East, and local businesses across Newham.",
+    "profile": [
+      "Stratford was rebuilt around the 2012 Games and has kept growing since: Westfield's retail and dining, the East Village and East Bank developments, universities and cultural institutions arriving on the Olympic Park, and Here East's cluster of tech companies, studios and start-ups. It is one of the best-connected places in London, which makes its catchment enormous — and its competition too.",
+      "Businesses here serve a young, diverse, mobile population that lives on its phone. Discovery happens on Instagram and TikTok, decisions happen on Google Maps and in AI assistants, and loyalty is earned through experience and follow-up. A Stratford business with a strong offer and no system is leaking customers to the national chains that have one.",
+      "There is also a B2B economy: companies at Here East and across the park that sell technology, education and creative services to the country, not just the postcode. For them, positioning and AI search visibility matter more than footfall.",
+      "Stratford also moves fast in a way most of London does not: new blocks open, new institutions arrive, the student population turns over every year, and the mix of languages on the high street changes with each wave of arrivals. Marketing that was set up once and left alone goes stale within months. The businesses that keep growing here treat their system as something that runs continuously — content produced weekly, campaigns adjusted to who actually arrived this term, enquiries answered instantly in the customer's language, and reporting that shows which of the park's audiences is paying for which part of the business."
+    ],
+    "scenarios": [
+      { "business": "Independent food brand near Westfield", "problem": "Queues at weekends, nothing on weekdays; the brand's social is strong but there is no website worth sending people to.", "whatWeDo": "A fast site with online ordering, weekday campaigns aimed at the park's workers and students, a weekly video pipeline, and automation that turns every order into a repeat customer." },
+      { "business": "Education technology company, Here East", "problem": "Sells to schools and universities; the sales cycle is long and the website explains features instead of outcomes.", "whatWeDo": "Positioning around the buyer's outcome, guide and comparison content that AI assistants can cite, a demo flow with automated qualification, and a LinkedIn programme for the founders." },
+      { "business": "Beauty salon in Stratford", "problem": "Fully dependent on a booking app that promotes competitors to its own customers.", "whatWeDo": "Direct booking on the salon's own site, local SEO for Stratford, Leyton and Bow, reminders and rebooking automation, and content that shows the work." }
+    ],
+    "topServices": ["paid-ads", "social-media-content", "websites"],
+    "faq": [
+      { "q": "Our customers find us on TikTok. Why do we need a website?", "a": "Because the website is where the sale and the data live. Social brings attention; the site and the automation turn it into revenue you control." },
+      { "q": "Can you run campaigns in several languages?", "a": "Yes. Newham is one of the most multilingual boroughs in the country and campaigns that respect that outperform English-only ones." },
+      { "q": "Do you work with B2B companies on the park?", "a": "Yes — positioning, AI search visibility and demo-flow automation are the usual starting points." },
+      { "q": "How do we start?", "a": "The free diagnosis — three short steps, written reply within 24 hours." }
+    ],
+    "neighbours": ["hackney", "canary-wharf", "greenwich"]
+  },
+  {
+    "slug": "richmond",
+    "name": "Richmond",
+    "borough": "London Borough of Richmond upon Thames",
+    "h1": "Digital marketing & sales systems in Richmond, London",
+    "title": "Digital marketing agency in Richmond upon Thames — Richmond, Twickenham, Kew, Teddington | UP Marketing Ads",
+    "description": "Sales systems for Richmond upon Thames: established local businesses, clinics, schools and tutors, property, hospitality and home services serving affluent residential communities.",
+    "profile": [
+      "Richmond upon Thames is village London: Richmond itself with its riverside, theatre and shops; Twickenham and its rugby economy; Kew with the gardens; Teddington, Barnes, Hampton and St Margarets with their high streets and schools. It is affluent, family-heavy, and loyal to local businesses — provided they can be found and trusted.",
+      "The borough's businesses are often long-established and excellent, with marketing that stopped evolving around the time the website was built. Competition is less frantic than in central London but the customer is just as demanding, and newcomers to the area — relocating families, downsizers, international arrivals — research everything online before they ever walk down the high street.",
+      "The search landscape is distinctly local: each village has its own terms and its own competitors. \"Dentist Teddington\", \"estate agent Barnes\", \"tutor Richmond\", \"garden design Kew\" — each one is a separate opportunity, and AI assistants now summarise them for the person asking.",
+      "Reputation in Richmond compounds slowly and is worth protecting carefully. Reviews here are read, not skimmed; a thoughtful reply to a critical one is noticed by the next twenty people who look. Photography should show the real premises and the real team, because customers will walk past and compare. And the enquiry experience should feel like the front desk of a good practice — prompt, courteous, unhurried — whether it is a person or a well-designed agent answering at nine in the evening. We build systems that hold that standard consistently, because consistency is what a village notices."
+    ],
+    "scenarios": [
+      { "business": "Garden design practice, Kew", "problem": "Exceptional portfolio, enquiries only through word of mouth; the site has no project pages and no words a client would search for.", "whatWeDo": "A project-led site with case studies by garden type and area, structured data, local SEO for Kew, Richmond and Barnes, and an enquiry flow that qualifies scope and budget politely." },
+      { "business": "Independent prep school tutoring", "problem": "Demand spikes around admissions deadlines and the business cannot respond fast enough during those weeks.", "whatWeDo": "Seasonal landing pages and campaigns, local SEO per village, and an AI agent that answers parents' questions and books assessments at any hour." },
+      { "business": "Riverside restaurant, Richmond", "problem": "Summer is effortless, winter is not; no guest data, no email list, bookings through a platform.", "whatWeDo": "Direct booking, a guest database the restaurant owns, winter campaigns targeted at residents of Richmond, Twickenham and St Margarets, and a content rhythm that keeps the place in mind." }
+    ],
+    "topServices": ["seo-ai-search", "websites", "ai-automation"],
+    "faq": [
+      { "q": "We have been in business for twenty years. Do we really need this?", "a": "You need it precisely because the next twenty years of customers will find you online first. A good system protects a strong reputation; it does not replace it." },
+      { "q": "Can you do one page for each village?", "a": "Yes, and each page is written for that village — its customers, its competitors — not a copy with the name changed." },
+      { "q": "Do you work with schools and education businesses?", "a": "Yes, including seasonal admissions-driven campaigns and automated enquiry handling for parents." },
+      { "q": "How do we start?", "a": "The free diagnosis — three short steps, written reply within 24 hours." }
+    ],
+    "neighbours": ["wimbledon", "kensington-chelsea", "westminster"]
+  },
+  {
+    "slug": "wimbledon",
+    "name": "Wimbledon",
+    "borough": "London Borough of Merton",
+    "h1": "Digital marketing & sales systems in Wimbledon, London",
+    "title": "Digital marketing agency in Wimbledon — Wimbledon Village, the Broadway, Raynes Park, Southfields | UP Marketing Ads",
+    "description": "Sales systems for Wimbledon businesses: the Village's boutiques and clinics, the Broadway's offices and restaurants, and family-focused services across Merton.",
+    "profile": [
+      "Wimbledon is two places: the Village on the hill — boutiques, cafés, estate agents, clinics and the Common — and the town centre below, with its offices, theatre, chains and a busy transport hub, plus the residential expanse of Raynes Park, Southfields and Colliers Wood. For two weeks a year the whole world watches; for the other fifty, it is a prosperous family suburb with high expectations and loyal habits.",
+      "Businesses here are often professional and service-led: healthcare, education, property, wellness, home improvement, hospitality. Their customers are households making considered decisions and researching them thoroughly — on Google, on review sites and increasingly through AI assistants that summarise who is good at what in SW19.",
+      "The opportunity is consistency. Wimbledon has plenty of good businesses with weak online presence, which means a business that invests in a clear site, village-level local SEO and reliable follow-up becomes the obvious choice quickly, and stays there.",
+      "There is also a timing advantage that is easy to miss. Wimbledon households plan: school terms, house moves, renovations, health check-ups, the summer rush. A business that captures an enquiry in March and keeps in touch properly wins the job in June, while the competitor who only answers the phone when it rings is still waiting. Automated follow-up, seasonal pages and a calendar of content built around how the area actually lives turn that planning habit into a pipeline — and the numbers are visible every month, so the owner knows exactly what the marketing is worth, every month, rather than hoping."
+    ],
+    "scenarios": [
+      { "business": "Osteopathy clinic, Wimbledon Village", "problem": "Word of mouth keeps the diary full for the senior practitioner; the junior practitioners have gaps, and the website cannot take a booking.", "whatWeDo": "A practitioner-led site with online booking, condition pages ranked for Wimbledon, Southfields and Raynes Park, and reminder automation that reduces no-shows." },
+      { "business": "Estate agency on the Broadway", "problem": "Portal dependence, slow responses to valuation requests, no nurturing of sellers who are six months away from listing.", "whatWeDo": "A valuation landing page with instant automated response, a nurture sequence for future sellers, local content about the streets they live on, and campaigns timed to the market." },
+      { "business": "Kitchen and bathroom company, Merton", "problem": "Strong showroom, few online enquiries; competitors with worse work rank above them for every search.", "whatWeDo": "Project galleries with structured data, local SEO for Wimbledon, Merton and the neighbouring boroughs, short video from installations, and quote-request automation." }
+    ],
+    "topServices": ["websites", "seo-ai-search", "ai-automation"],
+    "faq": [
+      { "q": "Is the tennis fortnight relevant to our marketing?", "a": "For hospitality and retail, yes — a short, intense campaign with its own page can pay for a year's work. For most other businesses it is noise to plan around." },
+      { "q": "Can you help a clinic with several practitioners?", "a": "Yes: practitioner pages, booking by practitioner, reminders, and content that gives the newer practitioners visibility." },
+      { "q": "Do you cover Raynes Park and Southfields too?", "a": "Yes, with their own pages when a business serves them, because each has its own searches and competitors." },
+      { "q": "How do we start?", "a": "The free diagnosis — three short steps, written reply within 24 hours." }
+    ],
+    "neighbours": ["richmond", "croydon", "kensington-chelsea"]
+  },
+  {
+    "slug": "croydon",
+    "name": "Croydon",
+    "borough": "London Borough of Croydon",
+    "h1": "Digital marketing & sales systems in Croydon, London",
+    "title": "Digital marketing agency in Croydon — town centre, Purley, Coulsdon, Norwood | UP Marketing Ads",
+    "description": "Sales systems for Croydon businesses: the town centre's offices and retail, trades and home services across the borough, clinics, schools and the growing tech and creative scene.",
+    "profile": [
+      "Croydon is London's largest borough by population and one of its most self-contained economies: a town centre of offices, retail and a redeveloping core; a tech and creative cluster that has grown around the tram and the fast trains; and dozens of residential districts — Purley, Coulsdon, Norwood, Thornton Heath, Shirley, Addington — each with its own high street, trades and family businesses. Fifteen minutes to Victoria and London Bridge, and a quarter of a million working residents.",
+      "Businesses here are practical and price-aware, and so are their customers. That does not mean cheap marketing wins — it means marketing has to show value fast and prove it with reviews, response time and clear offers. A Croydon trades company, clinic, school or restaurant that answers enquiries instantly and shows up for the right local searches takes work from competitors who still rely on directories.",
+      "The local search map is big and fragmented: dozens of place names, each with its own volume. Systematic area pages, a well-run business profile and AI-readable content cover that map in a way no amount of posting can.",
+      "Croydon's scale is also its advantage. A trades company that ranks across the borough's districts, answers every enquiry in seconds and collects a review after every job can outgrow competitors from central London who charge more and arrive later. The same is true for clinics, schools and restaurants: the customer base is large enough that a system which works at all works very well. We build it once, measure it monthly and expand it district by district."
+    ],
+    "scenarios": [
+      { "business": "Heating and plumbing company, Purley", "problem": "Pays a lead directory that sells each enquiry to several competitors; own website is a single page with a phone number.", "whatWeDo": "Service-and-area pages across the borough, an agent that answers and books quotes within seconds, automatic review requests, and Google Search campaigns for emergency terms with tracked calls." },
+      { "business": "Private tuition centre, Croydon town centre", "problem": "Seasonal demand, enquiries lost during peak weeks, and parents comparing on price because nothing else is communicated.", "whatWeDo": "Positioning around outcomes, seasonal landing pages and campaigns, local SEO for Croydon, Purley and Norwood, and an enquiry agent that qualifies and books assessments." },
+      { "business": "Tech start-up in the town centre", "problem": "Good product, no inbound; the site reads like an investor deck and nobody can tell what it does in one sentence.", "whatWeDo": "Reposition in plain language, rebuild the site as a conversion path, make the product legible to AI search, and connect the trial and demo flows to automated qualification." }
+    ],
+    "topServices": ["ai-automation", "seo-ai-search", "paid-ads"],
+    "faq": [
+      { "q": "Our customers compare on price. Can marketing change that?", "a": "Partly. Fast response, visible reviews and clear offers move the decision from price to trust. Automation handles the first two reliably." },
+      { "q": "Do you cover the whole borough?", "a": "Yes — the town centre, Purley, Coulsdon, South and West Croydon, Norwood, Thornton Heath, Shirley, Addington and the rest — with separate pages where a business serves distinct areas." },
+      { "q": "Can you replace our lead directory?", "a": "Most trades businesses we work with reduce directory spend substantially within a few months once their own enquiries and reviews build up." },
+      { "q": "How do we start?", "a": "The free diagnosis — three short steps, written reply within 24 hours." }
+    ],
+    "neighbours": ["wimbledon", "southwark", "greenwich"]
+  }
+]

@@ -1,0 +1,29 @@
+{#- Schematic map of Greater London: approximate relative positions, not a geographic projection. -#}
+{%- set pins = {
+  'richmond':           { x: 150, y: 345, lx: 150, ly: 378, anchor: 'middle' },
+  'wimbledon':          { x: 255, y: 400, lx: 255, ly: 433, anchor: 'middle' },
+  'croydon':            { x: 365, y: 450, lx: 365, ly: 483, anchor: 'middle' },
+  'kensington-chelsea': { x: 262, y: 292, lx: 246, ly: 296, anchor: 'end' },
+  'westminster':        { x: 330, y: 292, lx: 322, ly: 325, anchor: 'middle' },
+  'mayfair-soho':       { x: 312, y: 246, lx: 256, ly: 250, anchor: 'end' },
+  'camden':             { x: 322, y: 192, lx: 322, ly: 174, anchor: 'middle' },
+  'islington':          { x: 372, y: 208, lx: 372, ly: 190, anchor: 'middle' },
+  'city-of-london':     { x: 378, y: 262, lx: 378, ly: 295, anchor: 'middle' },
+  'shoreditch':         { x: 404, y: 236, lx: 390, ly: 240, anchor: 'end' },
+  'hackney':            { x: 420, y: 200, lx: 438, ly: 192, anchor: 'start' },
+  'southwark':          { x: 384, y: 324, lx: 384, ly: 357, anchor: 'middle' },
+  'canary-wharf':       { x: 448, y: 282, lx: 470, ly: 286, anchor: 'start' },
+  'stratford':          { x: 470, y: 218, lx: 470, ly: 248, anchor: 'middle' },
+  'greenwich':          { x: 462, y: 332, lx: 484, ly: 336, anchor: 'start' }
+} -%}
+<svg class="london-map" viewBox="0 0 640 520" role="img" aria-label="Map of the London areas we serve">
+  <path class="outline" d="M110 250 C130 170 210 110 320 110 C440 110 540 160 560 250 C580 330 520 420 430 460 C350 495 230 490 170 440 C110 390 90 320 110 250 Z"/>
+  <path class="thames" d="M70 330 C140 320 200 300 250 302 C300 304 330 300 365 304 C410 308 430 296 455 300 C490 306 500 330 540 318"/>
+  {%- for a in areas %}
+  {%- set p = pins[a.slug] %}
+  <a href="/london/{{ a.slug }}/" aria-label="{{ a.name }}">
+    <circle cx="{{ p.x }}" cy="{{ p.y }}" r="11"/>
+    <text x="{{ p.lx }}" y="{{ p.ly }}" text-anchor="{{ p.anchor }}">{{ a.name }}</text>
+  </a>
+  {%- endfor %}
+</svg>

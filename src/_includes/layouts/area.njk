@@ -1,0 +1,90 @@
+---
+layout: layouts/base.njk
+---
+{%- set t = i18n.en -%}
+{%- set a = area -%}
+<section class="section page-hero">
+  <div class="container">
+    <nav class="crumbs mono" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/london/">London</a> / <span>{{ a.name }}</span></nav>
+    <p class="mono page-hero__kicker">{{ a.borough }}</p>
+    <h1>{{ a.h1 }}</h1>
+    <div class="page-hero__intro">
+      <p>{{ a.profile[0] }}</p>
+    </div>
+    <a class="btn btn--primary" href="/diagnosis/">{{ t.cta.button }}</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid-12">
+    <div class="col-5"><h2>Selling in {{ a.name }}</h2></div>
+    <div class="col-7 prose">
+      {%- for p in a.profile.slice(1) %}<p>{{ p }}</p>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head"><h2>How we'd help a business in {{ a.name }}</h2></div>
+    <p class="muted section__intro">Three typical situations and the system we would build for each.</p>
+    <div class="scenarios">
+      {%- for sc in a.scenarios %}
+      <article class="card scenario">
+        <p class="mono">{{ sc.business }}</p>
+        <h3>{{ sc.problem }}</h3>
+        <p>{{ sc.whatWeDo }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head"><h2>Services that matter most here</h2></div>
+    <div class="related">
+      {%- for slug in a.topServices %}
+      {%- for s in services %}{% if s.slug == slug %}
+      <a class="card related__item" href="/services/{{ s.slug }}/"><span class="related__name">{{ s.name }}</span><span class="service-card__arrow" aria-hidden="true">→</span></a>
+      {%- endif %}{% endfor %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section__head"><h2>Questions from {{ a.name }} businesses</h2></div>
+    <div class="faq">
+      {%- for item in a.faq %}
+      <details class="faq__item"{% if loop.first %} open{% endif %}>
+        <summary class="faq__q"><span>{{ item.q }}</span><span class="faq__icon" aria-hidden="true">+</span></summary>
+        <p class="faq__a">{{ item.a }}</p>
+      </details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="mono">Nearby</p>
+    <div class="area-grid" style="margin-top: 16px">
+      {%- for slug in a.neighbours %}
+      {%- for n in areas %}{% if n.slug == slug %}
+      <a href="/london/{{ n.slug }}/"><span>{{ n.name }}</span><span aria-hidden="true">→</span></a>
+      {%- endif %}{% endfor %}
+      {%- endfor %}
+      <a href="/london/"><span>All London areas</span><span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section cta-final">
+  <div class="container">
+    <div class="section__head"><span class="section__num">{{ t.cta.num }}</span><h2>{{ t.cta.h2 }}</h2></div>
+    <p class="muted section__intro">{{ t.cta.text }}</p>
+    <a class="btn btn--primary" href="/diagnosis/">{{ t.cta.button }}</a>
+  </div>
+</section>
