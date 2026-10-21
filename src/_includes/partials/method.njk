@@ -1,0 +1,21 @@
+<section class="section" id="method">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__num">{{ t.method.num }}</span>
+      <h2>{{ t.method.h2 }}</h2>
+    </div>
+    <p class="mono reveal">{{ t.method.kicker }}</p>
+    <p class="muted section__intro reveal">{{ t.method.intro }}</p>
+    <ol class="steps">
+      {%- for step in t.method.steps %}
+      <li class="step reveal">
+        <span class="step__num">0{{ loop.index }}</span>
+        <div>
+          <h3 class="step__title">{{ step.title }}</h3>
+          <p class="step__text">{{ step.text }}</p>
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>

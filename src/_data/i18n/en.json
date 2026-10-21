@@ -1,0 +1,100 @@
+{
+  "nav": { "services": "Services", "london": "London", "portfolio": "Portfolio", "diagnosis": "Diagnosis", "cta": "Get your diagnosis" },
+  "foot": { "privacy": "Privacy", "whatsapp": "WhatsApp", "tagline": "UP Marketing Ads — London" },
+  "hero": {
+    "kicker": "Sales system — London",
+    "h1a": "Your product isn't selling little.",
+    "h1b": "It's being sold wrong.",
+    "sub": "Websites, content, video, AI automation and ads — built as one sales system. London.",
+    "cta": "Get your free diagnosis",
+    "cta2": "See the services",
+    "diagramCore": "Sales system"
+  },
+  "proof": {
+    "items": ["4 sales systems live", "Operating in 9 countries", "AI agents answering WhatsApp 24/7"]
+  },
+  "servicesSection": {
+    "num": "01",
+    "kicker": "Services",
+    "h2": "Six services. One system.",
+    "intro": "Buy them separately and you get six vendors who don't talk to each other. Buy them as a system and every part feeds the next.",
+    "aiLabel": "With AI"
+  },
+  "services": [
+    { "slug": "seo-ai-search", "name": "SEO & AI Search", "blurb": "Show up on Google and inside ChatGPT, Perplexity and AI Overviews — where London buyers now search.", "ai": "Weekly AI audits and content written for search engines and answer engines at once." },
+    { "slug": "websites", "name": "Websites & Landing Pages", "blurb": "Positioning, copy and design built to convert — not to win awards.", "ai": "AI builds variants in days and tests them against real traffic." },
+    { "slug": "social-media-content", "name": "Social Media & Content", "blurb": "A content calendar that runs itself: posts, carousels and captions in your voice.", "ai": "AI drafts, you approve, we publish and measure." },
+    { "slug": "video-editing", "name": "Video Editing & Short-form", "blurb": "Reels, TikTok, YouTube and corporate video edited to hold attention.", "ai": "AI avatars, dubbing, captions and generated b-roll cut production time in half." },
+    { "slug": "ai-automation", "name": "AI Automation & Agents", "blurb": "WhatsApp and chat agents that qualify leads, book calls and follow up 24/7.", "ai": "Connected to your CRM and email so no lead goes cold." },
+    { "slug": "paid-ads", "name": "Paid Ads", "blurb": "Google and Meta campaigns managed for cost per lead, not clicks.", "ai": "AI generates and rotates creatives and cuts losers before they burn budget." }
+  ],
+  "method": {
+    "num": "02",
+    "kicker": "The sales system",
+    "h2": "Five steps. No guessing.",
+    "intro": "Every project runs the same way, so you always know where you are and what comes next.",
+    "steps": [
+      { "title": "Diagnosis", "text": "Within 24 hours we read your numbers, your offer and your funnel, and tell you exactly where the sale is leaking." },
+      { "title": "Positioning & offer", "text": "What you sell, to whom, and why now. If this is wrong, nothing downstream can fix it." },
+      { "title": "Build", "text": "Website, content, video, automation — only the parts your system actually needs, built to work together." },
+      { "title": "Launch & traffic", "text": "Paid ads, organic content and AI search, switched on in the right order." },
+      { "title": "Measure & scale", "text": "A weekly report in plain English: what to cut, what to double, what to leave alone." }
+    ]
+  },
+  "funnel": {
+    "num": "03",
+    "kicker": "Before / after",
+    "h2": "Same traffic. Different outcome.",
+    "before": { "label": "Before — loose parts", "metric": "Clicks that go nowhere", "stages": [
+      { "label": "Click", "note": "paid traffic comes in" },
+      { "label": "Page", "note": "pretty, doesn't convert" },
+      { "label": "Contact", "note": "goes cold without follow-up" },
+      { "label": "Sale", "note": "almost none" }
+    ] },
+    "after": { "label": "After — one system", "metric": "Clicks that become customers", "stages": [
+      { "label": "Click", "note": "the same traffic" },
+      { "label": "Offer", "note": "clear in seconds" },
+      { "label": "Funnel", "note": "guides on its own" },
+      { "label": "Automation", "note": "follow-up 24/7" },
+      { "label": "Sale", "note": "predictable" }
+    ] }
+  },
+  "portfolio": {
+    "num": "04",
+    "kicker": "Work",
+    "h2": "Real work. Names kept private.",
+    "text": "Systems in production for brands that depend on discretion. You see the work, not the client.",
+    "cta": "See the portfolio"
+  },
+  "founder": {
+    "num": "05",
+    "kicker": "Who signs",
+    "h2": "One person owns the whole system.",
+    "name": "Miquéias Rocha",
+    "lines": [
+      "Founder of UP Marketing Ads, London.",
+      "Builds the full system — offer, website, content, video, automation and ads — for brands in the UK and across Europe.",
+      "Works in English, Portuguese and French."
+    ]
+  },
+  "faq": {
+    "num": "06",
+    "kicker": "FAQ",
+    "h2": "Questions people ask before the first call.",
+    "items": [
+      { "q": "What exactly is a \"sales system\"?", "a": "The offer, the website, the content, the video, the automation and the ads — designed together, so each part feeds the next. Most businesses buy these from six different vendors who never talk. We build them as one." },
+      { "q": "Do you work with small businesses?", "a": "Yes. Most of our clients are owner-led businesses between pre-revenue and £200k a month. The diagnosis tells you honestly whether we're the right fit for your stage." },
+      { "q": "How long until I see results?", "a": "Websites and automation ship in weeks. Paid ads produce data in days. SEO and AI search compound over months. We tell you the realistic timeline in the diagnosis — before you spend anything." },
+      { "q": "Where are you based?", "a": "London. We work with businesses across London, the UK and Europe, in English, Portuguese and French." },
+      { "q": "Do you actually use AI, or is that just marketing?", "a": "We use it every day — for research, content drafts, video production and the agents that answer your leads. A human still decides, approves and is responsible for every result." },
+      { "q": "What happens after I fill in the diagnosis?", "a": "You get a written diagnosis within 24 hours and a WhatsApp number to talk it through. No pressure, no automated sales sequence." }
+    ]
+  },
+  "cta": {
+    "num": "07",
+    "kicker": "Diagnosis",
+    "h2": "Find out where your sale is leaking.",
+    "text": "Three short steps. Written diagnosis within 24 hours. Free.",
+    "button": "Get your free diagnosis"
+  }
+}

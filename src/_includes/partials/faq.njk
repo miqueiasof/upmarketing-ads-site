@@ -1,0 +1,16 @@
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__num">{{ t.faq.num }}</span>
+      <h2>{{ t.faq.h2 }}</h2>
+    </div>
+    <div class="faq">
+      {%- for item in t.faq.items %}
+      <details class="faq__item reveal"{% if loop.first %} open{% endif %}>
+        <summary class="faq__q"><span>{{ item.q }}</span><span class="faq__icon" aria-hidden="true">+</span></summary>
+        <p class="faq__a">{{ item.a }}</p>
+      </details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

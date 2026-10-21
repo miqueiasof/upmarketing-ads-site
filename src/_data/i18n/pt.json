@@ -1,0 +1,100 @@
+{
+  "nav": { "services": "Serviços", "london": "Londres", "portfolio": "Portfólio", "diagnosis": "Diagnóstico", "cta": "Pedir diagnóstico" },
+  "foot": { "privacy": "Privacidade", "whatsapp": "WhatsApp", "tagline": "UP Marketing Ads — Londres" },
+  "hero": {
+    "kicker": "Engenharia de vendas online — Londres",
+    "h1a": "Seu produto não vende pouco.",
+    "h1b": "Ele está sendo vendido errado.",
+    "sub": "Site, conteúdo, vídeo, automação com IA e anúncios — construídos como um único sistema de vendas. Londres.",
+    "cta": "Pedir diagnóstico gratuito",
+    "cta2": "Ver os serviços",
+    "diagramCore": "Sistema de vendas"
+  },
+  "proof": {
+    "items": ["4 sistemas de venda no ar", "Operação em 9 países", "Agentes de IA no WhatsApp 24/7"]
+  },
+  "servicesSection": {
+    "num": "01",
+    "kicker": "Serviços",
+    "h2": "Seis serviços. Um sistema.",
+    "intro": "Comprados separados, você ganha seis fornecedores que não se falam. Comprados como sistema, cada parte alimenta a próxima.",
+    "aiLabel": "Com IA"
+  },
+  "services": [
+    { "slug": "seo-ai-search", "name": "SEO & Busca por IA", "blurb": "Aparecer no Google e dentro do ChatGPT, Perplexity e AI Overviews — onde o comprador de Londres pesquisa hoje.", "ai": "Auditoria semanal por IA e conteúdo escrito para buscadores e motores de resposta ao mesmo tempo." },
+    { "slug": "websites", "name": "Sites & Landing Pages", "blurb": "Posicionamento, copy e design feitos para converter — não para ganhar prêmio.", "ai": "A IA monta variações em dias e testa contra tráfego real." },
+    { "slug": "social-media-content", "name": "Social Media & Conteúdo", "blurb": "Um calendário de conteúdo que roda sozinho: posts, carrosséis e legendas na sua voz.", "ai": "A IA rascunha, você aprova, a gente publica e mede." },
+    { "slug": "video-editing", "name": "Edição de Vídeo & Short-form", "blurb": "Reels, TikTok, YouTube e vídeo corporativo editados para segurar a atenção.", "ai": "Avatares, dublagem, legendas e b-roll gerados por IA cortam o tempo de produção pela metade." },
+    { "slug": "ai-automation", "name": "Automação & Agentes de IA", "blurb": "Agentes de WhatsApp e chat que qualificam leads, agendam reuniões e fazem follow-up 24/7.", "ai": "Ligados ao seu CRM e e-mail para nenhum lead esfriar." },
+    { "slug": "paid-ads", "name": "Tráfego Pago", "blurb": "Campanhas no Google e na Meta geridas por custo por lead, não por clique.", "ai": "A IA gera e alterna criativos e corta os perdedores antes de queimar verba." }
+  ],
+  "method": {
+    "num": "02",
+    "kicker": "Engenharia de vendas online",
+    "h2": "Cinco passos. Zero achismo.",
+    "intro": "Todo projeto segue o mesmo caminho, então você sempre sabe onde está e o que vem depois.",
+    "steps": [
+      { "title": "Diagnóstico", "text": "Em até 24 horas lemos seus números, sua oferta e seu funil e dizemos exatamente onde a venda está vazando." },
+      { "title": "Posicionamento & oferta", "text": "O que você vende, para quem e por que agora. Se isso estiver errado, nada depois conserta." },
+      { "title": "Construção", "text": "Site, conteúdo, vídeo, automação — só as partes que o seu sistema precisa, feitas para trabalhar juntas." },
+      { "title": "Lançamento & tráfego", "text": "Anúncios, conteúdo orgânico e busca por IA, ligados na ordem certa." },
+      { "title": "Medir & escalar", "text": "Relatório semanal em português claro: o que cortar, o que dobrar, o que deixar quieto." }
+    ]
+  },
+  "funnel": {
+    "num": "03",
+    "kicker": "Antes / depois",
+    "h2": "Mesmo tráfego. Outro resultado.",
+    "before": { "label": "Antes — peças soltas", "metric": "Cliques que não viram nada", "stages": [
+      { "label": "Clique", "note": "tráfego pago entra" },
+      { "label": "Página", "note": "bonita, não converte" },
+      { "label": "Contato", "note": "esfria sem follow-up" },
+      { "label": "Venda", "note": "quase nenhuma" }
+    ] },
+    "after": { "label": "Depois — um sistema", "metric": "Cliques que viram clientes", "stages": [
+      { "label": "Clique", "note": "o mesmo tráfego" },
+      { "label": "Oferta", "note": "clara em segundos" },
+      { "label": "Funil", "note": "conduz sozinho" },
+      { "label": "Automação", "note": "follow-up 24/7" },
+      { "label": "Venda", "note": "previsível" }
+    ] }
+  },
+  "portfolio": {
+    "num": "04",
+    "kicker": "Trabalhos",
+    "h2": "Trabalho real. Nomes guardados.",
+    "text": "Sistemas em produção para marcas que dependem de discrição. Você vê o trabalho, não o cliente.",
+    "cta": "Ver o portfólio"
+  },
+  "founder": {
+    "num": "05",
+    "kicker": "Quem assina",
+    "h2": "Uma pessoa responde pelo sistema inteiro.",
+    "name": "Miquéias Rocha",
+    "lines": [
+      "Fundador da UP Marketing Ads, Londres.",
+      "Constrói o sistema completo — oferta, site, conteúdo, vídeo, automação e anúncios — para marcas no Reino Unido e na Europa.",
+      "Trabalha em português, inglês e francês."
+    ]
+  },
+  "faq": {
+    "num": "06",
+    "kicker": "Perguntas",
+    "h2": "O que perguntam antes da primeira conversa.",
+    "items": [
+      { "q": "O que é exatamente um \"sistema de vendas\"?", "a": "A oferta, o site, o conteúdo, o vídeo, a automação e os anúncios — desenhados juntos, para cada parte alimentar a próxima. A maioria compra isso de seis fornecedores que nunca se falam. A gente constrói como uma coisa só." },
+      { "q": "Vocês atendem negócio pequeno?", "a": "Sim. A maioria dos nossos clientes é negócio de dono, entre o pré-faturamento e £200 mil por mês. O diagnóstico diz com honestidade se fazemos sentido para o seu momento." },
+      { "q": "Em quanto tempo vejo resultado?", "a": "Site e automação saem em semanas. Anúncios geram dados em dias. SEO e busca por IA compõem ao longo de meses. O prazo realista vem no diagnóstico — antes de você gastar qualquer coisa." },
+      { "q": "Onde vocês ficam?", "a": "Londres. Atendemos negócios em Londres, no Reino Unido e na Europa, em português, inglês e francês." },
+      { "q": "Vocês usam IA de verdade ou é só marketing?", "a": "Usamos todo dia — pesquisa, rascunho de conteúdo, produção de vídeo e os agentes que respondem seus leads. Uma pessoa continua decidindo, aprovando e respondendo por cada resultado." },
+      { "q": "O que acontece depois que eu preencho o diagnóstico?", "a": "Você recebe um diagnóstico por escrito em até 24 horas e um WhatsApp para conversar sobre ele. Sem pressão, sem sequência automática de vendas." }
+    ]
+  },
+  "cta": {
+    "num": "07",
+    "kicker": "Diagnóstico",
+    "h2": "Descubra onde a sua venda está vazando.",
+    "text": "Três passos curtos. Diagnóstico por escrito em até 24 horas. Gratuito.",
+    "button": "Pedir diagnóstico gratuito"
+  }
+}

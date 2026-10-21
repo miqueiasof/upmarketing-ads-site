@@ -1,0 +1,28 @@
+<section class="section" id="services">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__num">{{ t.servicesSection.num }}</span>
+      <h2>{{ t.servicesSection.h2 }}</h2>
+    </div>
+    <p class="muted section__intro reveal">{{ t.servicesSection.intro }}</p>
+    <div class="services">
+      {%- for s in t.services %}
+      {%- if isEn %}
+      <a class="service-card reveal" href="/services/{{ s.slug }}/" data-service="{{ s.slug }}">
+      {%- else %}
+      <div class="service-card reveal" data-service="{{ s.slug }}">
+      {%- endif %}
+        <span class="service-card__num mono">0{{ loop.index }}</span>
+        <h3 class="service-card__title">{{ s.name }}</h3>
+        <p class="service-card__blurb">{{ s.blurb }}</p>
+        <p class="service-card__ai"><span class="tag">{{ t.servicesSection.aiLabel }}</span> {{ s.ai }}</p>
+        {%- if isEn %}<span class="service-card__arrow" aria-hidden="true">→</span>{% endif %}
+      {%- if isEn %}
+      </a>
+      {%- else %}
+      </div>
+      {%- endif %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>

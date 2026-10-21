@@ -1,4 +1,4 @@
-{%- set foot = foot or { privacy: 'Privacy', whatsapp: 'WhatsApp', tagline: 'UP Marketing Ads — London' } -%}
+{%- set foot = (i18n[lang or 'en'] or i18n.en).foot -%}
 <footer class="footer">
   <div class="container footer__inner">
     <span class="mono">{{ foot.tagline }}</span>

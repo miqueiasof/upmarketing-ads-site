@@ -1,6 +1,4 @@
-{%- set nav = nav or {
-  services: 'Services', london: 'London', portfolio: 'Portfolio', diagnosis: 'Diagnosis', cta: 'Get your diagnosis'
-} -%}
+{%- set nav = (i18n[lang or 'en'] or i18n.en).nav -%}
 <header class="header">
   <div class="container header__inner">
     <a class="brand" href="{{ homePath or '/' }}" aria-label="{{ site.name }} — home">

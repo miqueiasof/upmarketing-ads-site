@@ -1,0 +1,9 @@
+<section class="proof" aria-label="Proof">
+  <div class="container">
+    <ul class="proof__list reveal">
+      {%- for item in t.proof.items %}
+      <li class="proof__item"><span class="proof__dot"></span>{{ item }}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

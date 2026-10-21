@@ -1,0 +1,17 @@
+<section class="section" id="founder">
+  <div class="container founder">
+    <figure class="founder__photo reveal">
+      <img src="/assets/img/founder.jpg" alt="{{ t.founder.name }}" width="800" height="1000" loading="lazy">
+    </figure>
+    <div class="founder__text">
+      <div class="section__head reveal">
+        <span class="section__num">{{ t.founder.num }}</span>
+        <h2>{{ t.founder.h2 }}</h2>
+      </div>
+      <p class="founder__name reveal">{{ t.founder.name }}</p>
+      {%- for line in t.founder.lines %}
+      <p class="founder__line reveal">{{ line }}</p>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

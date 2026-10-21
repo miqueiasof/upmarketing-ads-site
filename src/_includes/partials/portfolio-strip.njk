@@ -1,0 +1,23 @@
+<section class="section" id="work">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="section__num">{{ t.portfolio.num }}</span>
+      <h2>{{ t.portfolio.h2 }}</h2>
+    </div>
+    <p class="muted section__intro reveal">{{ t.portfolio.text }}</p>
+  </div>
+  <div class="strip reveal" aria-hidden="true">
+    <div class="strip__track">
+      {%- for i in range(0, 2) %}
+      {%- for n in ['01', '02', '03', '04'] %}
+      <figure class="strip__item">
+        <img src="/portfolio/img/m{{ n }}-desktop.jpg" alt="" loading="lazy" width="900" height="600">
+      </figure>
+      {%- endfor %}
+      {%- endfor %}
+    </div>
+  </div>
+  <div class="container">
+    <a class="btn btn--ghost reveal" href="/portfolio/">{{ t.portfolio.cta }}</a>
+  </div>
+</section>

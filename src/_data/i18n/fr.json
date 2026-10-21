@@ -1,0 +1,100 @@
+{
+  "nav": { "services": "Services", "london": "Londres", "portfolio": "Portfolio", "diagnosis": "Diagnostic", "cta": "Demander un diagnostic" },
+  "foot": { "privacy": "Confidentialité", "whatsapp": "WhatsApp", "tagline": "UP Marketing Ads — Londres" },
+  "hero": {
+    "kicker": "Ingénierie de vente en ligne — Londres",
+    "h1a": "Votre produit ne se vend pas peu.",
+    "h1b": "Il est mal vendu.",
+    "sub": "Site, contenu, vidéo, automatisation par IA et publicité — construits comme un seul système de vente. Londres.",
+    "cta": "Demander un diagnostic gratuit",
+    "cta2": "Voir les services",
+    "diagramCore": "Système de vente"
+  },
+  "proof": {
+    "items": ["4 systèmes de vente en ligne", "Présents dans 9 pays", "Agents IA sur WhatsApp 24/7"]
+  },
+  "servicesSection": {
+    "num": "01",
+    "kicker": "Services",
+    "h2": "Six services. Un seul système.",
+    "intro": "Achetés séparément, vous obtenez six prestataires qui ne se parlent pas. Achetés comme un système, chaque pièce alimente la suivante.",
+    "aiLabel": "Avec l'IA"
+  },
+  "services": [
+    { "slug": "seo-ai-search", "name": "SEO & Recherche IA", "blurb": "Apparaître sur Google et dans ChatGPT, Perplexity et les AI Overviews — là où les acheteurs londoniens cherchent aujourd'hui.", "ai": "Audit hebdomadaire par IA et contenu écrit à la fois pour les moteurs de recherche et les moteurs de réponse." },
+    { "slug": "websites", "name": "Sites & Landing Pages", "blurb": "Positionnement, copywriting et design conçus pour convertir — pas pour gagner des prix.", "ai": "L'IA produit des variantes en quelques jours et les teste sur du trafic réel." },
+    { "slug": "social-media-content", "name": "Réseaux sociaux & Contenu", "blurb": "Un calendrier éditorial qui tourne seul : posts, carrousels et légendes avec votre voix.", "ai": "L'IA rédige, vous validez, nous publions et mesurons." },
+    { "slug": "video-editing", "name": "Montage vidéo & Formats courts", "blurb": "Reels, TikTok, YouTube et vidéo corporate montés pour retenir l'attention.", "ai": "Avatars, doublage, sous-titres et b-roll générés par IA divisent le temps de production par deux." },
+    { "slug": "ai-automation", "name": "Automatisation & Agents IA", "blurb": "Des agents WhatsApp et chat qui qualifient les leads, prennent les rendez-vous et relancent 24/7.", "ai": "Connectés à votre CRM et à vos e-mails pour qu'aucun lead ne refroidisse." },
+    { "slug": "paid-ads", "name": "Publicité payante", "blurb": "Campagnes Google et Meta pilotées au coût par lead, pas au clic.", "ai": "L'IA génère et fait tourner les créations et coupe les perdantes avant qu'elles ne brûlent le budget." }
+  ],
+  "method": {
+    "num": "02",
+    "kicker": "Ingénierie de vente en ligne",
+    "h2": "Cinq étapes. Aucune devinette.",
+    "intro": "Chaque projet suit le même chemin : vous savez toujours où vous en êtes et ce qui vient ensuite.",
+    "steps": [
+      { "title": "Diagnostic", "text": "Sous 24 heures, nous lisons vos chiffres, votre offre et votre tunnel, et nous vous disons exactement où la vente fuit." },
+      { "title": "Positionnement & offre", "text": "Ce que vous vendez, à qui, et pourquoi maintenant. Si c'est faux, rien en aval ne peut le réparer." },
+      { "title": "Construction", "text": "Site, contenu, vidéo, automatisation — seulement les pièces dont votre système a besoin, conçues pour fonctionner ensemble." },
+      { "title": "Lancement & trafic", "text": "Publicité, contenu organique et recherche IA, activés dans le bon ordre." },
+      { "title": "Mesurer & faire grandir", "text": "Un rapport hebdomadaire en français clair : quoi couper, quoi doubler, quoi laisser tranquille." }
+    ]
+  },
+  "funnel": {
+    "num": "03",
+    "kicker": "Avant / après",
+    "h2": "Même trafic. Autre résultat.",
+    "before": { "label": "Avant — des pièces détachées", "metric": "Des clics qui ne mènent nulle part", "stages": [
+      { "label": "Clic", "note": "le trafic payant arrive" },
+      { "label": "Page", "note": "jolie, ne convertit pas" },
+      { "label": "Contact", "note": "refroidit sans relance" },
+      { "label": "Vente", "note": "presque aucune" }
+    ] },
+    "after": { "label": "Après — un seul système", "metric": "Des clics qui deviennent des clients", "stages": [
+      { "label": "Clic", "note": "le même trafic" },
+      { "label": "Offre", "note": "claire en quelques secondes" },
+      { "label": "Tunnel", "note": "guide tout seul" },
+      { "label": "Automatisation", "note": "relance 24/7" },
+      { "label": "Vente", "note": "prévisible" }
+    ] }
+  },
+  "portfolio": {
+    "num": "04",
+    "kicker": "Réalisations",
+    "h2": "Du vrai travail. Des noms gardés privés.",
+    "text": "Des systèmes en production pour des marques qui dépendent de la discrétion. Vous voyez le travail, pas le client.",
+    "cta": "Voir le portfolio"
+  },
+  "founder": {
+    "num": "05",
+    "kicker": "Qui signe",
+    "h2": "Une seule personne répond de tout le système.",
+    "name": "Miquéias Rocha",
+    "lines": [
+      "Fondateur de UP Marketing Ads, Londres.",
+      "Construit le système complet — offre, site, contenu, vidéo, automatisation et publicité — pour des marques au Royaume-Uni et en Europe.",
+      "Travaille en français, en anglais et en portugais."
+    ]
+  },
+  "faq": {
+    "num": "06",
+    "kicker": "FAQ",
+    "h2": "Les questions posées avant le premier appel.",
+    "items": [
+      { "q": "C'est quoi, exactement, un « système de vente » ?", "a": "L'offre, le site, le contenu, la vidéo, l'automatisation et la publicité — conçus ensemble, pour que chaque pièce alimente la suivante. La plupart des entreprises les achètent à six prestataires qui ne se parlent jamais. Nous les construisons comme un tout." },
+      { "q": "Travaillez-vous avec les petites entreprises ?", "a": "Oui. La plupart de nos clients sont des entreprises dirigées par leur fondateur, entre le pré-revenu et 200 000 £ par mois. Le diagnostic vous dit honnêtement si nous sommes adaptés à votre stade." },
+      { "q": "En combien de temps voit-on des résultats ?", "a": "Site et automatisation sont livrés en quelques semaines. La publicité produit des données en quelques jours. Le SEO et la recherche IA se cumulent sur des mois. Le délai réaliste est dans le diagnostic — avant que vous ne dépensiez quoi que ce soit." },
+      { "q": "Où êtes-vous basés ?", "a": "À Londres. Nous travaillons avec des entreprises à Londres, au Royaume-Uni et en Europe, en français, en anglais et en portugais." },
+      { "q": "Utilisez-vous vraiment l'IA, ou c'est du marketing ?", "a": "Nous l'utilisons chaque jour — recherche, brouillons de contenu, production vidéo et les agents qui répondent à vos leads. Un humain décide, valide et reste responsable de chaque résultat." },
+      { "q": "Que se passe-t-il après le diagnostic ?", "a": "Vous recevez un diagnostic écrit sous 24 heures et un numéro WhatsApp pour en parler. Sans pression, sans séquence de vente automatisée." }
+    ]
+  },
+  "cta": {
+    "num": "07",
+    "kicker": "Diagnostic",
+    "h2": "Découvrez où votre vente fuit.",
+    "text": "Trois étapes courtes. Diagnostic écrit sous 24 heures. Gratuit.",
+    "button": "Demander un diagnostic gratuit"
+  }
+}

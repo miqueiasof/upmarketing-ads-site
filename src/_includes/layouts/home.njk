@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+extraCss:
+  - /assets/css/home.css
+---
+{%- set t = i18n[lang] -%}
+{%- set isEn = (lang == 'en') -%}
+{% include "partials/hero.njk" %}
+{% include "partials/proof.njk" %}
+{% include "partials/services-grid.njk" %}
+{% include "partials/method.njk" %}
+{% include "partials/funnel.njk" %}
+{% include "partials/portfolio-strip.njk" %}
+{% include "partials/founder.njk" %}
+{% include "partials/faq.njk" %}
+{% include "partials/cta.njk" %}
