@@ -2,6 +2,14 @@
 layout: layouts/base.njk
 extraCss:
   - /assets/css/home.css
+  - /assets/css/motion.css
+extraJs:
+  - /assets/vendor/gsap.min.js
+  - /assets/vendor/ScrollTrigger.min.js
+  - /assets/vendor/DrawSVGPlugin.min.js
+  - /assets/vendor/lenis.min.js
+  - /assets/js/hero-diagram.js
+  - /assets/js/motion.js
 ---
 {%- set t = i18n[lang] -%}
 {%- set isEn = (lang == 'en') -%}

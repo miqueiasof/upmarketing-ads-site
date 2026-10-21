@@ -8,7 +8,8 @@
     "sub": "Websites, content, video, AI automation and ads — built as one sales system. London.",
     "cta": "Get your free diagnosis",
     "cta2": "See the services",
-    "diagramCore": "Sales system"
+    "diagramCore": "Sales system",
+    "nodes": ["SEO & AI Search", "Websites", "Social & Content", "Video", "AI Automation", "Paid Ads", "Sales", "system"]
   },
   "proof": {
     "items": ["4 sales systems live", "Operating in 9 countries", "AI agents answering WhatsApp 24/7"]

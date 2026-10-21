@@ -8,7 +8,8 @@
     "sub": "Site, contenu, vidéo, automatisation par IA et publicité — construits comme un seul système de vente. Londres.",
     "cta": "Demander un diagnostic gratuit",
     "cta2": "Voir les services",
-    "diagramCore": "Système de vente"
+    "diagramCore": "Système de vente",
+    "nodes": ["SEO & Recherche IA", "Sites", "Social & Contenu", "Vidéo", "Automatisation IA", "Publicité", "Système", "de vente"]
   },
   "proof": {
     "items": ["4 systèmes de vente en ligne", "Présents dans 9 pays", "Agents IA sur WhatsApp 24/7"]
