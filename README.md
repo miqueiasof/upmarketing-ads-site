@@ -1,41 +1,32 @@
-# UP Marketing Ads — Site institucional
+# UP Marketing Ads — site
 
-Site one-page trilíngue (PT / EN / FR) da UP Marketing Ads — engenharia de vendas online, Londres.
+Site da UP Marketing Ads (upmarketingads.com): inglês em `/`, português em `/pt/`, francês em `/fr/`, páginas de serviço, páginas de região de Londres e formulário de diagnóstico.
+
+Gerado com **Eleventy 3** (Nunjucks) a partir de `src/`. Saída em `dist/`.
+
+## Comandos
+
+```bash
+npm install          # uma vez
+npm run dev          # http://localhost:8080 com reload
+npm run build        # gera dist/
+npm test             # testes (node --test "tests/**/*.test.mjs")
+bash scripts/deploy.sh   # build + rsync dist/ -> VPS (/docker/upmarketing/site/)
+```
 
 ## Estrutura
 
-- `index.html` — o site completo, autocontido (HTML + CSS + JS num único arquivo). Não precisa de build, servidor Node ou dependências: qualquer servidor web estático serve.
+- `src/` — páginas (`.njk`), `_includes/` (layouts e partials), `_data/` (textos por idioma, serviços, regiões), `assets/` (css, js, fontes, imagens).
+- `portfolio/` — página de portfólio estática, copiada para `dist/portfolio/` no build.
+- `legacy/index.html` — site antigo (export do Claude Design), só referência; não entra no build.
+- `docs/superpowers/` — spec e plano do redesign.
+- `scripts/` — deploy e utilitários (n8n, OG images).
+- `tests/` — testes unitários e e2e (Playwright).
 
-## Rodar localmente
+## Hospedagem
 
-Abra o `index.html` no navegador, ou:
+VPS Hostinger `76.13.253.56`, container `upmarketing` (nginx:alpine) servindo `/docker/upmarketing/site/`, atrás do Traefik com Let's Encrypt. DNS na HostGator (A → VPS).
 
-```bash
-npx serve .
-```
+## Formulário
 
-## Deploy na VPS (Nginx)
-
-```bash
-scp index.html usuario@SEU_IP:/var/www/upmarketing/
-```
-
-```nginx
-server {
-  listen 80;
-  server_name seudominio.com www.seudominio.com;
-  root /var/www/upmarketing;
-  index index.html;
-}
-```
-
-Depois do DNS propagar: `certbot --nginx` para SSL grátis.
-
-## Conteúdo e idiomas
-
-Todo o texto dos 3 idiomas está no objeto `CONTENT` dentro do `index.html` (chaves `pt`, `en`, `fr`). Edite lá para mudar qualquer copy.
-
-## Pendências
-
-- O formulário de contato é visual — ainda não envia leads a nenhum backend. Conectar a Formspree, webhook próprio ou WhatsApp antes de rodar tráfego.
-- Espaços de imagem (avatares de depoimentos) aceitam arrastar-e-soltar no editor de origem; substituir por `<img>` reais em produção.
+Envia para o webhook n8n `https://n8n.moneygirls.com.br/webhook/upmarketing-form`, que manda e-mail via Resend para `up.marketing.ads@gmail.com` com a prioridade do lead (A/B/C) no assunto.
