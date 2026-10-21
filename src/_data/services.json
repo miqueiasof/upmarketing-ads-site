@@ -1,0 +1,266 @@
+[
+  {
+    "slug": "seo-ai-search",
+    "name": "SEO & AI Search",
+    "h1": "SEO & AI Search agency in London",
+    "title": "SEO & AI Search agency in London — Google and ChatGPT visibility | UP Marketing Ads",
+    "description": "London SEO that covers both Google and AI answers: local SEO, technical fixes, content built for search engines and for ChatGPT, Perplexity and AI Overviews.",
+    "kicker": "Service 01",
+    "intro": [
+      "Search in London changed shape. Fewer people type \"SEO agency London\" into Google and scroll; more of them ask ChatGPT, Perplexity or Google's AI Overview who they should call. If your business only optimises for the ten blue links, you are optimising for a shrinking channel. We work on both at once: the classic foundations that still decide rankings, and the newer signals that decide whether an AI answer cites you.",
+      "The work is unglamorous and it compounds. Technical health, pages that answer a specific question better than anyone else in your borough, structured data that machines can read, and a steady rhythm of content that proves you know your subject. Six months in, you stop paying for every single visit."
+    ],
+    "includes": [
+      "Technical audit and fixes: speed, crawlability, mobile, Core Web Vitals, broken structure",
+      "Local SEO for London: area pages, business profile signals, reviews strategy, citations",
+      "Keyword and question research by borough and by buying intent",
+      "Content plan and production: service pages, guides, FAQs written in British English",
+      "AI search (GEO): passage-level answers, schema, brand mentions, llms.txt and citation tracking",
+      "Monthly report in plain English: rankings, AI citations, leads from organic"
+    ],
+    "aiHow": [
+      "Weekly automated crawl of your site flags technical regressions before Google notices them",
+      "AI drafts first versions of pages and FAQs from your real expertise; a human edits every line before it ships",
+      "We test what ChatGPT and Perplexity say about your category in London and adjust content to earn the citation",
+      "Internal linking and schema are generated from the content map, not by hand"
+    ],
+    "forWho": [
+      "London service businesses that depend on \"near me\" searches — clinics, trades, studios, consultancies",
+      "Brands whose traffic has been flat for a year despite publishing content",
+      "Companies that want to appear in AI answers before their competitors work out how"
+    ],
+    "examples": [
+      { "label": "Luxury personal brand, London", "text": "Technical rebuild, schema, Search Console verification and a French-language section for a second market. Indexed and ranking for brand and service terms within weeks of launch." },
+      { "label": "Education brand selling in 9 countries", "text": "Country landing pages with distinct content per market, hreflang done properly, and a quiz funnel that turns organic visitors into qualified leads." },
+      { "label": "Investment firm, one-page site", "text": "Launch SEO block: metadata, structured data, Search Console and analytics — the foundation that makes every later piece of content count." }
+    ],
+    "faq": [
+      { "q": "How long does SEO take to show results in London?", "a": "Technical fixes show within weeks. Local pages for specific areas usually move within two to three months. Competitive citywide terms take six months or more. We tell you the realistic timeline for your category in the diagnosis, before you commit." },
+      { "q": "What is AI search optimisation, and is it different from SEO?", "a": "It is the part of SEO that makes your pages easy for AI systems to quote: clear passage-level answers, structured data, consistent brand mentions and content that earns citations. Most of the groundwork overlaps with good SEO; the measurement is different." },
+      { "q": "Do you guarantee first-page rankings?", "a": "No, and nobody honest does. We guarantee the work, the reporting and the decisions behind it. We also tell you early if a term is not worth chasing." },
+      { "q": "Do I need a new website for SEO to work?", "a": "Not always. If the current site is technically sound we work with it. If it is slow, hard to edit or structurally wrong, we tell you in the diagnosis and you decide." },
+      { "q": "Can you work alongside my existing content writer?", "a": "Yes. We supply the research, structure and briefs; they write in your voice; we handle the technical side and measurement." }
+    ],
+    "related": ["websites", "social-media-content"]
+  },
+  {
+    "slug": "websites",
+    "name": "Websites & Landing Pages",
+    "h1": "Websites & landing pages that sell — London",
+    "title": "Websites & landing pages that sell, London | UP Marketing Ads",
+    "description": "Positioning, copy and design built to convert. Fast static websites and landing pages for London businesses, with forms wired into automation from day one.",
+    "kicker": "Service 02",
+    "intro": [
+      "A website is not a brochure. It is the one salesperson that talks to every visitor, at 2 a.m., in the exact words you gave it. Most London business sites were built to look finished, not to sell: a pretty hero, a wall of services, a contact form nobody answers. We build the opposite — a page that understands who arrived, says the one thing that matters to them, and makes the next step obvious.",
+      "We start with positioning, because copy without positioning is decoration. Then design, built on a system rather than templates. Then the technical layer: fast, static, secure, measurable, with the form connected to your follow-up before the site goes live."
+    ],
+    "includes": [
+      "Positioning workshop: who you sell to, what they are afraid of, why you and why now",
+      "Copywriting for every section — headlines, offers, proof, objections, calls to action",
+      "Design on a system: typography, colour, spacing and motion that match the brand",
+      "Static build: no plugins to break, loads in under two seconds, hosted on infrastructure we control",
+      "Forms wired into WhatsApp, email and CRM, with a thank-you flow that keeps the lead warm",
+      "Launch SEO: metadata, structured data, sitemap, Search Console, analytics"
+    ],
+    "aiHow": [
+      "AI generates layout and copy variants in days so we test real options instead of debating mock-ups",
+      "Image and video assets for the page are produced or upscaled with AI when a shoot is not possible",
+      "Every form submission is scored automatically so you answer the hottest leads first",
+      "We monitor the live page for errors, slow assets and broken links without manual checks"
+    ],
+    "forWho": [
+      "Founders whose current site \"looks fine\" but produces no enquiries",
+      "Businesses launching a new offer that needs its own landing page and funnel",
+      "Personal brands and discreet services that need design, privacy and reliability in equal measure"
+    ],
+    "examples": [
+      { "label": "Luxury personal brand, London", "text": "Editorial one-page site with custom motion, a private enquiry form with its own vault, an admin panel and cookieless analytics. Live in production." },
+      { "label": "Duo brand, private services", "text": "Dark green-and-gold identity, bilingual copy and a reservation flow designed to qualify before contact." },
+      { "label": "Education brand, multi-country", "text": "Landing pages per country, each with its own offer, checkout and automation — one system, not nine disconnected pages." }
+    ],
+    "faq": [
+      { "q": "How long does a website take?", "a": "A landing page: two to three weeks. A full site with several pages: four to eight weeks, depending on how fast content and approvals move on your side." },
+      { "q": "Do you use WordPress, Webflow or something else?", "a": "We build static sites generated from code: fastest, most secure and cheapest to run. If you need to edit copy yourself we set up a simple editing flow. If you already have WordPress and it works, we can work with it." },
+      { "q": "Can I keep my current domain and hosting?", "a": "Domain, yes, always. Hosting: we usually move the site to infrastructure we manage so performance and security are predictable, but it is your call." },
+      { "q": "Do you write the copy or do I?", "a": "We write it, after a positioning session with you. You approve every word. Copy is where most sites fail, so we never leave it to chance." },
+      { "q": "What happens after launch?", "a": "You get a launch report, Search Console access and a 30-day window for adjustments. Many clients then move to a monthly plan for SEO, content or automation." }
+    ],
+    "related": ["seo-ai-search", "ai-automation"]
+  },
+  {
+    "slug": "social-media-content",
+    "name": "Social Media & Content",
+    "h1": "Social media management & content creation, London",
+    "title": "Social media management & content creation in London | UP Marketing Ads",
+    "description": "Content calendar, posts, carousels, captions and short video in your voice — planned, produced and measured as part of your sales system, not as decoration.",
+    "kicker": "Service 03",
+    "intro": [
+      "Most businesses post because they feel they should, then stop because nothing happens. The problem is rarely the frequency. It is that the content has no job: it does not lead anywhere, it does not sound like anyone, and nobody is measuring whether it moved a single sale. We run content as a pipeline with a purpose — every post pulls towards an offer, a page, a conversation.",
+      "We plan monthly, produce weekly, and review the numbers with you in plain English. You keep your voice; we bring the structure, the hooks, the design and the discipline to keep it going when you are busy running the business."
+    ],
+    "includes": [
+      "Monthly content calendar built from your offers, your audience's questions and what performed",
+      "Posts, carousels and stories designed on your brand system",
+      "Captions and hooks written in your voice, in English, Portuguese or French",
+      "Short-form video scripting and editing (see Video Editing for full production)",
+      "Scheduling and publishing across Instagram, TikTok, LinkedIn and YouTube",
+      "Monthly performance review: reach, saves, profile visits, clicks, leads"
+    ],
+    "aiHow": [
+      "AI researches what your audience is asking this month and proposes the calendar; you approve in ten minutes",
+      "Drafts for captions and carousel copy come from your own recordings and past content, not from generic prompts",
+      "Visuals and b-roll are generated or upscaled when there is no shoot",
+      "Comment-to-DM automations turn engagement into conversations without you watching the inbox"
+    ],
+    "forWho": [
+      "Founders and experts who are the face of their business but have no time to produce",
+      "Brands with a product that needs explaining, not just showing",
+      "Businesses that already run ads and need organic content that supports them"
+    ],
+    "examples": [
+      { "label": "Education brand, Portuguese-speaking market", "text": "Weekly carousels and reels on a black-and-gold identity, scripted from the founder's own talks, with DM automation on every post." },
+      { "label": "Personal brand, London", "text": "Editorial content plan that supports the website's positioning, so social and search say the same thing." },
+      { "label": "Multi-country launch", "text": "One calendar adapted per country and language, published on schedule while the founder travelled." }
+    ],
+    "faq": [
+      { "q": "Which platforms do you manage?", "a": "Instagram and TikTok are the core for most clients; LinkedIn and YouTube when the audience is there. We would rather do two platforms properly than five badly." },
+      { "q": "Do I need to appear on camera?", "a": "It helps enormously for personal brands, but it is not mandatory. We can build a content system around product, process, text and AI-assisted visuals." },
+      { "q": "How much content per month?", "a": "A typical plan is 12 to 20 posts per month plus stories. We size it to what you can approve and what the audience can absorb, not to a vanity number." },
+      { "q": "Will the content sound like me?", "a": "Yes. We build the voice from your recordings, your past content and a short interview, and you approve everything before it goes out." },
+      { "q": "Can you also run the ads for the content?", "a": "Yes. Organic and paid work better together; see Paid Ads." }
+    ],
+    "related": ["video-editing", "paid-ads"]
+  },
+  {
+    "slug": "video-editing",
+    "name": "Video Editing & Short-form",
+    "h1": "Video editing & short-form video for brands in London",
+    "title": "Video editing & short-form video for brands in London | UP Marketing Ads",
+    "description": "Reels, TikTok, YouTube and corporate video edited to hold attention: motion graphics, captions, sound design, AI avatars and dubbing. Weekly pipelines, not one-offs.",
+    "kicker": "Service 04",
+    "intro": [
+      "Video is where attention lives, and attention is lost in the first two seconds. We edit for the scroll: a hook that opens on the point, cuts that remove every dead moment, captions synced word by word, motion that explains instead of decorates, and sound that makes the whole thing feel expensive. Whether the raw material is a phone recording or a three-camera shoot, the output is built to be watched to the end.",
+      "We run video as a weekly pipeline for clients who publish constantly, and as projects for launches, courses and corporate films. Everything is delivered in native resolution — 4K stays 4K — and in every format you need."
+    ],
+    "includes": [
+      "Short-form: Reels, TikTok, Shorts — hook-first cuts, captions, motion graphics, sound design",
+      "Long-form: YouTube and course videos with chapters, b-roll, inserts and colour grading",
+      "Corporate and launch films: script, structure, motion, music licensing",
+      "Multi-camera edits with transcript-based cleanup",
+      "Thumbnails, covers and cut-downs for each platform",
+      "Delivery in all aspect ratios, native resolution, with captions files"
+    ],
+    "aiHow": [
+      "Transcription-based editing finds the best takes and removes mistakes before a human touches the timeline",
+      "AI avatars and voice cloning produce talking-head content when you cannot record",
+      "Dubbing and subtitling into English, Portuguese, French and more, with your own voice",
+      "Generated b-roll and image-to-video inserts replace stock footage that looks like stock footage"
+    ],
+    "forWho": [
+      "Creators and experts publishing several videos a week who need a reliable editing engine",
+      "Companies with a library of recordings that never became content",
+      "Brands launching a course, a product or a campaign that needs a film"
+    ],
+    "examples": [
+      { "label": "Weekly pipeline, education brand", "text": "Reels in four approved editing styles, lesson edits in 4K with motion panels, trailers and YouTube cuts — dozens of pieces a month, every week, for over a year." },
+      { "label": "Multi-camera YouTube series", "text": "Three-camera long-form videos cleaned by transcript, chaptered, with inserts, graphics and sound design per topic." },
+      { "label": "Lesson library", "text": "Live immersions split into dozens of lessons with covers and captions, published to a members' area automatically." }
+    ],
+    "faq": [
+      { "q": "Do you film, or only edit?", "a": "Primarily we edit, and we direct how you should record so the edit works. For London shoots we bring in trusted camera crews when the project needs it." },
+      { "q": "What do you need from me?", "a": "Raw footage via a shared drive, your brand assets and a short brief. For recurring work we set up a drop folder: you upload, we deliver." },
+      { "q": "How fast is turnaround?", "a": "Short-form: 48 to 72 hours. Long-form: five to ten working days. Weekly pipelines run on a fixed schedule agreed upfront." },
+      { "q": "Can you use AI to make a video of me without recording?", "a": "Yes, with your consent and your own likeness and voice. We use it for repetitive content and translations, never to replace the pieces where your presence matters." },
+      { "q": "Do you deliver in 4K?", "a": "If you record in 4K we deliver in 4K. We never downscale your footage." }
+    ],
+    "related": ["social-media-content", "paid-ads"]
+  },
+  {
+    "slug": "ai-automation",
+    "name": "AI Automation & Agents",
+    "h1": "AI automation & AI agents for London businesses",
+    "title": "AI automation & AI agents for London businesses — WhatsApp, chat, CRM | UP Marketing Ads",
+    "description": "AI agents that answer WhatsApp and web chat, qualify leads, book calls and follow up 24/7, connected to your CRM and email. Built and maintained by people who run them daily.",
+    "kicker": "Service 05",
+    "intro": [
+      "The most expensive thing in your business is a lead that nobody answered. It arrived at 11 p.m., asked a simple question, waited, and bought from whoever replied first. An AI agent answers in seconds, in the customer's language, with your rules — and it never forgets to follow up. We build these agents on your WhatsApp, your website and your email, and we connect them to the tools you already use.",
+      "This is not a chatbot that recites a FAQ. It is a system that qualifies, books, nudges, hands over to a human when it should, and writes everything into your CRM. We run agents like this every day in our own operations, across nine countries, so we know where they break and how to keep them honest."
+    ],
+    "includes": [
+      "WhatsApp and web chat agents trained on your offers, prices, rules and tone",
+      "Lead qualification and scoring, with hot leads routed to you immediately",
+      "Appointment booking, reminders and no-show recovery",
+      "Follow-up sequences on WhatsApp and email that stop the moment a human takes over",
+      "CRM and spreadsheet integration: every conversation logged, nothing lost",
+      "Internal automations: onboarding, invoicing, reporting, document handling"
+    ],
+    "aiHow": [
+      "Agents are built on current frontier models with guardrails, not on scripted decision trees",
+      "They read your real documents — price lists, policies, past conversations — so answers are specific",
+      "Every conversation is reviewed by a supervisor model that flags anything risky for a human",
+      "Monthly we read the transcripts and tighten the agent where customers got stuck"
+    ],
+    "forWho": [
+      "Businesses that receive enquiries on WhatsApp and lose them to slow replies",
+      "Clinics, studios, agencies and schools with repetitive booking and onboarding",
+      "Teams of one to twenty who cannot hire a receptionist but cannot afford to miss a lead"
+    ],
+    "examples": [
+      { "label": "Education brand, 9 countries", "text": "WhatsApp agents handling sales conversations and support in several languages, 24/7, connected to the CRM and the checkout — with human handover rules." },
+      { "label": "Website enquiries to vault", "text": "Private enquiry form that scores, stores and notifies, with a fallback that never loses the lead even if the server is down." },
+      { "label": "Recurring billing and reminders", "text": "Weekly automated invoicing and payment reminders for retainer clients, with receipts generated and filed automatically." }
+    ],
+    "faq": [
+      { "q": "Will customers know they are talking to an AI?", "a": "Yes, when they ask, and in your opening message if you prefer. Honesty converts better than pretending, and UK consumer rules point the same way." },
+      { "q": "What if the agent says something wrong?", "a": "It only answers from your approved material, escalates anything outside it, and every conversation is logged. We review transcripts monthly and fix gaps. In practice the error rate is far below a tired human at 11 p.m." },
+      { "q": "Which tools can you connect?", "a": "WhatsApp Business, Instagram DMs, web chat, Gmail and Outlook, Google Sheets, most CRMs and calendars, Stripe and the main checkout platforms. If it has an API, we can connect it." },
+      { "q": "How much does an AI agent cost to run?", "a": "Setup is a project fee; running costs are usually tens of pounds a month in model and messaging fees, plus a maintenance plan. We show the numbers in the diagnosis." },
+      { "q": "How long to launch?", "a": "A single-purpose agent: two to three weeks. A full sales-and-support agent with CRM integration: four to six weeks." }
+    ],
+    "related": ["websites", "paid-ads"]
+  },
+  {
+    "slug": "paid-ads",
+    "name": "Paid Ads",
+    "h1": "Google & Meta ads management, London",
+    "title": "Google & Meta ads management in London — cost per lead, not clicks | UP Marketing Ads",
+    "description": "Paid ads on Google, Meta and TikTok managed for cost per lead and return, with creative testing, landing pages and follow-up built into the same system.",
+    "kicker": "Service 06",
+    "intro": [
+      "Ads amplify whatever you point them at. Point them at a page that does not convert and you buy expensive proof that it does not convert. That is why we rarely run ads alone: the campaign, the landing page and the follow-up are one system, and we measure the whole thing by what you actually care about — cost per qualified lead and revenue — not by clicks.",
+      "We manage Google Search, Meta (Instagram and Facebook) and, when the audience is there, TikTok. Budgets from a few hundred pounds a month upwards. Creative testing in volume, weekly decisions, and a report you can read in two minutes."
+    ],
+    "includes": [
+      "Account structure, tracking and conversion setup done properly before spending a pound",
+      "Google Search and Performance Max campaigns with negative keyword discipline",
+      "Meta campaigns: prospecting, retargeting, lead forms and WhatsApp click-to-chat",
+      "Creative production and testing: five to ten variants per round, winners scaled",
+      "Landing pages and follow-up automation aligned with the ads (see Websites and AI Automation)",
+      "Weekly optimisation, monthly report, quarterly strategy review"
+    ],
+    "aiHow": [
+      "AI generates creative variants — copy, images, short video — from your brand system for fast testing",
+      "Anomaly detection flags spend spikes and cost-per-lead drift the same day",
+      "Search-term analysis is automated so wasted spend is cut weekly, not quarterly",
+      "Leads from ads are scored and followed up by agents within seconds of arriving"
+    ],
+    "forWho": [
+      "Businesses already spending on ads without knowing their cost per qualified lead",
+      "Launches that need volume fast and a system to absorb it",
+      "Local London services competing for the same postcode searches as everyone else"
+    ],
+    "examples": [
+      { "label": "Personal brand retainers, UK", "text": "Ongoing Meta ad management for personal brands on weekly retainers, with creatives produced in-house and leads routed to WhatsApp." },
+      { "label": "Multi-country education launches", "text": "Campaigns per country with their own pixels, pages and checkouts, tracked end to end from ad to sale." },
+      { "label": "Catalogue and retargeting", "text": "Product catalogue campaigns with dynamic creative and server-side conversion tracking for cleaner data." }
+    ],
+    "faq": [
+      { "q": "What budget do I need to start?", "a": "On Meta, from about £500 a month you can learn something; from £1,500 you can scale. Google Search depends on your category's click prices in London — we check before you commit." },
+      { "q": "Do you charge a percentage of ad spend?", "a": "No. A fixed monthly fee based on the work, so our incentive is your results, not your spend." },
+      { "q": "How soon do ads produce leads?", "a": "Days, if tracking and the page are right. The first two to four weeks are learning; real efficiency usually appears from month two." },
+      { "q": "Can you fix a campaign someone else set up?", "a": "Yes. We start with an audit of structure, tracking and creative, then rebuild only what is broken." },
+      { "q": "Do I own the ad accounts?", "a": "Always. Accounts, pixels and data are yours. We work inside them with our own access." }
+    ],
+    "related": ["websites", "ai-automation"]
+  }
+]

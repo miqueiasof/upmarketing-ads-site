@@ -1,0 +1,67 @@
+/* Shared styles for service, London hub, area and privacy pages */
+.page-hero { border-top: 0; padding-top: clamp(40px, 7vh, 80px); }
+.page-hero h1 { max-width: 18ch; font-size: clamp(2.2rem, 5.6vw, 4.6rem); margin-top: 20px; }
+.page-hero__kicker { margin-top: 28px; }
+.page-hero__intro { margin: 28px 0 36px; display: flex; flex-direction: column; gap: 16px; }
+.page-hero__intro p { color: var(--muted); font-size: 1.125rem; max-width: 62ch; }
+.crumbs a { color: var(--muted); }
+.crumbs a:hover { color: var(--text); }
+.crumbs span { color: var(--text); }
+
+.list-check, .list-dash { list-style: none; display: flex; flex-direction: column; gap: 14px; font-size: 1.0625rem; }
+.list-check li, .list-dash li { position: relative; padding-left: 28px; color: var(--text); }
+.list-check li::before { content: '✓'; position: absolute; left: 0; color: var(--muted); font-family: var(--font-mono); }
+.list-check--accent li::before { color: var(--accent); }
+.list-dash li::before { content: '—'; position: absolute; left: 0; color: var(--accent); }
+
+.examples { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.example { display: flex; flex-direction: column; gap: 12px; }
+.example p:last-child { color: var(--muted); font-size: 0.9375rem; }
+
+.related { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 16px; }
+.related__item { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.related__item:hover { border-color: var(--accent); }
+.related__name { font-family: var(--font-display); font-size: 1.4rem; }
+
+/* Services grid on pages without home.css */
+.services { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.service-card { position: relative; display: flex; flex-direction: column; gap: 14px; padding: 32px 28px 40px; background: var(--bg); min-height: 240px; transition: background-color var(--dur); }
+a.service-card:hover { background: var(--panel); }
+.service-card__num { color: var(--accent); }
+.service-card__title { font-size: 1.6rem; }
+.service-card__blurb { color: var(--muted); font-size: 0.9375rem; }
+.service-card__arrow { position: absolute; top: 28px; right: 28px; color: var(--muted); transition: transform var(--dur) var(--ease-out), color var(--dur); }
+a.service-card:hover .service-card__arrow { transform: translate(4px, -4px); color: var(--accent); }
+
+/* FAQ (shared with home) */
+.faq { border-top: 1px solid var(--line); }
+.faq__item { border-bottom: 1px solid var(--line); }
+.faq__q { list-style: none; cursor: pointer; display: flex; justify-content: space-between; gap: 24px; padding: 22px 0; font-family: var(--font-display); font-size: 1.4rem; }
+.faq__q::-webkit-details-marker { display: none; }
+.faq__icon { color: var(--accent); transition: transform var(--dur) var(--ease-out); }
+.faq__item[open] .faq__icon { transform: rotate(45deg); }
+.faq__a { color: var(--muted); padding-bottom: 24px; max-width: 64ch; }
+.cta-final { padding-block: clamp(72px, 14vh, 150px); }
+
+/* London hub + areas */
+.area-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.area-grid a { display: flex; justify-content: space-between; align-items: center; padding: 18px 20px; border: 1px solid var(--line); border-radius: var(--radius-sm); font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); transition: border-color var(--dur), color var(--dur); }
+.area-grid a:hover { border-color: var(--accent); color: var(--text); }
+.scenarios { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.scenario { display: flex; flex-direction: column; gap: 10px; }
+.scenario h3 { font-size: 1.3rem; }
+.scenario p { color: var(--muted); font-size: 0.9375rem; }
+.prose { display: flex; flex-direction: column; gap: 18px; }
+.prose p { color: var(--muted); font-size: 1.0625rem; max-width: 66ch; }
+.london-map { max-width: 720px; margin-inline: auto; }
+.london-map a circle { fill: var(--panel); stroke: var(--line-strong); transition: fill var(--dur), stroke var(--dur); }
+.london-map a:hover circle, .london-map a:focus-visible circle { fill: rgba(61, 232, 200, 0.2); stroke: var(--accent); }
+.london-map text { fill: var(--muted); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; pointer-events: none; }
+.london-map .outline { fill: none; stroke: var(--line); stroke-width: 1; }
+.london-map .thames { fill: none; stroke: var(--line-strong); stroke-width: 2; stroke-linecap: round; }
+
+@media (max-width: 900px) {
+  .examples, .scenarios, .area-grid { grid-template-columns: 1fr; }
+  .services { grid-template-columns: 1fr; }
+  .related { grid-template-columns: 1fr; }
+}

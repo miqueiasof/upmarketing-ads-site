@@ -1,0 +1,93 @@
+---
+layout: layouts/base.njk
+---
+{%- set t = i18n.en -%}
+{%- set s = service -%}
+<section class="section page-hero">
+  <div class="container">
+    <nav class="crumbs mono" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/services/">Services</a> / <span>{{ s.name }}</span></nav>
+    <p class="mono page-hero__kicker">{{ s.kicker }}</p>
+    <h1>{{ s.h1 }}</h1>
+    <div class="page-hero__intro">
+      {%- for p in s.intro %}<p>{{ p }}</p>{% endfor %}
+    </div>
+    <a class="btn btn--primary" href="/diagnosis/">{{ t.cta.button }}</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid-12">
+    <div class="col-5"><h2>What's included</h2></div>
+    <ul class="col-7 list-check">
+      {%- for item in s.includes %}<li>{{ item }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid-12">
+    <div class="col-5"><p class="mono">{{ t.servicesSection.aiLabel }}</p><h2>How we use AI here</h2></div>
+    <ul class="col-7 list-check list-check--accent">
+      {%- for item in s.aiHow %}<li>{{ item }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid-12">
+    <div class="col-5"><h2>Who it's for</h2></div>
+    <ul class="col-7 list-dash">
+      {%- for item in s.forWho %}<li>{{ item }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head"><h2>Examples</h2></div>
+    <p class="muted section__intro">Real work, names kept private by agreement.</p>
+    <div class="examples">
+      {%- for ex in s.examples %}
+      <article class="card example">
+        <p class="mono">{{ ex.label }}</p>
+        <p>{{ ex.text }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section__head"><h2>Questions</h2></div>
+    <div class="faq">
+      {%- for item in s.faq %}
+      <details class="faq__item"{% if loop.first %} open{% endif %}>
+        <summary class="faq__q"><span>{{ item.q }}</span><span class="faq__icon" aria-hidden="true">+</span></summary>
+        <p class="faq__a">{{ item.a }}</p>
+      </details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="mono">Related</p>
+    <div class="related">
+      {%- for slug in s.related %}
+      {%- for r in services %}{% if r.slug == slug %}
+      <a class="card related__item" href="/services/{{ r.slug }}/"><span class="related__name">{{ r.name }}</span><span class="service-card__arrow" aria-hidden="true">→</span></a>
+      {%- endif %}{% endfor %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section cta-final">
+  <div class="container">
+    <div class="section__head"><span class="section__num">{{ t.cta.num }}</span><h2>{{ t.cta.h2 }}</h2></div>
+    <p class="muted section__intro">{{ t.cta.text }}</p>
+    <a class="btn btn--primary" href="/diagnosis/">{{ t.cta.button }}</a>
+  </div>
+</section>

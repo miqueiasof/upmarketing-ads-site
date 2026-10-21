@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+permalink: /services/
+title: Services — SEO, websites, content, video, AI automation and ads in London | UP Marketing Ads
+description: Six services built as one sales system for London businesses — SEO & AI search, websites, social media & content, video editing, AI automation and paid ads.
+canonical: /services/
+---
+{%- set t = i18n.en -%}
+<section class="section page-hero">
+  <div class="container">
+    <p class="mono">{{ t.servicesSection.kicker }}</p>
+    <h1>{{ t.servicesSection.h2 }}</h1>
+    <p class="muted section__intro">{{ t.servicesSection.intro }}</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="services">
+      {%- for s in services %}
+      <a class="service-card" href="/services/{{ s.slug }}/">
+        <span class="service-card__num mono">0{{ loop.index }}</span>
+        <h2 class="service-card__title">{{ s.name }}</h2>
+        <p class="service-card__blurb">{{ s.description }}</p>
+        <span class="service-card__arrow" aria-hidden="true">→</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+<section class="section cta-final">
+  <div class="container">
+    <div class="section__head"><span class="section__num">{{ t.cta.num }}</span><h2>{{ t.cta.h2 }}</h2></div>
+    <p class="muted section__intro">{{ t.cta.text }}</p>
+    <a class="btn btn--primary" href="/diagnosis/">{{ t.cta.button }}</a>
+  </div>
+</section>
