@@ -1,0 +1,103 @@
+/* Hero v2 — "the sales system assembling itself". Motion levels come from html[data-motion]. */
+.hv2 { position: relative; isolation: isolate; overflow: hidden; min-height: calc(100svh - 72px); display: flex; flex-direction: column; justify-content: center; padding-block: clamp(32px, 6vh, 72px) clamp(72px, 11vh, 120px); }
+
+/* Background: static grid, cursor-lit grid, breathing aura */
+.hv2__bg { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
+.hv2__grid, .hv2__spot { position: absolute; inset: 0; background-size: 64px 64px; }
+.hv2__grid {
+  background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  opacity: 0.5;
+  -webkit-mask-image: radial-gradient(ellipse 70% 85% at 70% 45%, #000 10%, transparent 75%);
+  mask-image: radial-gradient(ellipse 70% 85% at 70% 45%, #000 10%, transparent 75%);
+}
+.hv2__spot {
+  --mx: 70%; --my: 45%;
+  background-image: linear-gradient(rgba(61, 232, 200, 0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(61, 232, 200, 0.4) 1px, transparent 1px);
+  -webkit-mask-image: radial-gradient(circle 260px at var(--mx) var(--my), #000 0%, transparent 70%);
+  mask-image: radial-gradient(circle 260px at var(--mx) var(--my), #000 0%, transparent 70%);
+  opacity: 0; transition: opacity 0.8s;
+}
+html[data-motion="full"] .hv2.is-live .hv2__spot { opacity: 1; }
+.hv2__aura {
+  position: absolute; right: -14%; top: 50%; width: min(1150px, 95vw); aspect-ratio: 1; translate: 0 -50%; border-radius: 50%;
+  background: radial-gradient(circle, rgba(61, 232, 200, 0.17) 0%, rgba(61, 232, 200, 0.05) 36%, transparent 66%);
+}
+html[data-motion="full"] .hv2.is-live .hv2__aura { animation: hv2-breathe 7s ease-in-out infinite; }
+
+/* Layout */
+.hv2__inner { position: relative; display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 6fr); gap: clamp(16px, 3vw, 48px); align-items: center; }
+.hv2__text { position: relative; z-index: 1; }
+.hv2__kicker { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
+.hv2__kline { display: inline-block; width: 44px; height: 1px; background: var(--accent); }
+.hv2__h1 { font-size: clamp(2.8rem, 6.2vw, 6.4rem); line-height: 1.02; max-width: 12ch; }
+.hv2__w { display: inline-block; overflow: hidden; vertical-align: top; padding: 0 0.08em 0.1em 0; margin: 0 -0.08em -0.1em 0; }
+.hv2__w > span { display: inline-block; }
+.hv2__sub { color: var(--muted); font-size: 1.125rem; margin-top: 28px; max-width: 44ch; }
+.hv2__actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 36px; }
+
+/* Diagram stage */
+.hv2__stage { position: relative; perspective: 1400px; }
+.hv2__tilt { transform-style: preserve-3d; }
+.hv2-dia { display: block; width: 122%; max-width: none; height: auto; margin-left: -6%; overflow: visible; }
+.hv2__caption { position: absolute; left: 0; right: 0; bottom: -56px; text-align: center; color: var(--accent); opacity: 0; }
+
+.hv2-dia .ring { fill: none; }
+.hv2-dia .ring--ticks { stroke: rgba(238, 242, 248, 0.32); stroke-width: 9; stroke-dasharray: 1.2 18.78; }
+.hv2-dia .ring--orbit { stroke: var(--line-strong); stroke-width: 1; }
+.hv2-dia .ring--inner { stroke: rgba(61, 232, 200, 0.4); stroke-width: 1; stroke-dasharray: 3 9; }
+.hv2-dia .chord { stroke: rgba(238, 242, 248, 0.14); stroke-width: 1; }
+.hv2-dia .spoke { stroke: var(--line-strong); stroke-width: 1.25; transition: stroke 0.3s; }
+.hv2-dia .spoke.is-hot { stroke: var(--accent); }
+.hv2-dia .flow { stroke: var(--accent); stroke-width: 1.6; stroke-dasharray: 2 14; opacity: 0; transition: opacity 0.8s; }
+.hv2-dia .comet { stroke: var(--accent); stroke-width: 3.2; opacity: 0; }
+.hv2-dia .core__glow { opacity: 0.6; }
+.hv2-dia .core__disc { fill: var(--deep); stroke: var(--accent); stroke-width: 1.5; }
+.hv2-dia .core__label { font-family: var(--font-mono); font-size: 13px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; fill: var(--text); }
+.hv2-dia .pulse { fill: none; stroke: var(--accent); stroke-width: 1.5; opacity: 0; }
+.hv2-dia .node { transition: opacity 0.35s; }
+.hv2-dia .node__halo { fill: none; stroke: rgba(61, 232, 200, 0.3); stroke-dasharray: 2 6; }
+.hv2-dia .node__disc { fill: var(--panel); stroke: var(--line-strong); stroke-width: 1.25; transition: fill 0.3s, stroke 0.3s; }
+.hv2-dia .node__num { font-family: var(--font-mono); font-size: 16px; font-weight: 500; letter-spacing: 0.1em; fill: var(--accent); }
+.hv2-dia .node__label { font-family: var(--font-mono); font-size: 14px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; fill: var(--muted); transition: fill 0.3s; paint-order: stroke; stroke: var(--bg); stroke-width: 7px; stroke-linejoin: round; }
+.hv2-dia .node.is-hot .node__disc { fill: rgba(61, 232, 200, 0.16); stroke: var(--accent); }
+.hv2-dia .node.is-hot .node__label { fill: var(--text); }
+.hv2-dia.has-hot .node:not(.is-hot) { opacity: 0.4; }
+
+/* Scroll cue */
+.hv2__scroll { position: absolute; left: 50%; bottom: 20px; translate: -50% 0; display: flex; flex-direction: column; align-items: center; gap: 10px; font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--muted); }
+.hv2__scroll i { position: relative; width: 1px; height: 44px; background: var(--line-strong); overflow: hidden; }
+.hv2__scroll i::after { content: ''; position: absolute; left: 0; top: -40%; width: 1px; height: 40%; background: var(--accent); }
+html[data-motion="full"] .hv2.is-live .hv2__scroll i::after { animation: hv2-cue 1.8s cubic-bezier(0.65, 0, 0.35, 1) infinite; }
+
+/* Live loops: full = after the intro; lite = CSS-only, nothing hidden */
+.hv2.is-live .hv2-dia .flow, html[data-motion="lite"] .hv2-dia .flow { opacity: 0.55; animation: hv2-flow 1.4s linear infinite; }
+html[data-motion="lite"] .hv2-dia .ring--ticks { transform-box: view-box; transform-origin: 410px 360px; animation: hv2-spin 140s linear infinite; }
+
+/* Full motion: intro elements start hidden. Failsafe reveals them if the script never runs. */
+html[data-motion="full"] .hv2:not(.is-ready) [data-intro] { opacity: 0; animation: hv2-failsafe 0.01s 2.5s forwards; }
+
+/* Services under the v2 hero: accent line, cursor light */
+.hv2-page .service-card { overflow: hidden; }
+.hv2-page .service-card::before { content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 2px; background: var(--accent); transform: scaleX(0); transform-origin: left; transition: transform 1s var(--ease-out); z-index: 2; }
+.hv2-page .service-card.is-in::before { transform: scaleX(1); }
+.hv2-page .service-card::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(340px circle at var(--mx, 50%) var(--my, 0%), rgba(61, 232, 200, 0.14), transparent 62%); opacity: 0; transition: opacity 0.35s; }
+.hv2-page a.service-card:hover::after { opacity: 1; }
+.hv2-page .service-card > :not(.service-card__arrow) { position: relative; z-index: 1; }
+
+@keyframes hv2-flow { to { stroke-dashoffset: -32; } }
+@keyframes hv2-spin { to { transform: rotate(360deg); } }
+@keyframes hv2-breathe { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.08); opacity: 0.75; } }
+@keyframes hv2-cue { from { transform: translateY(0); } to { transform: translateY(350%); } }
+@keyframes hv2-failsafe { to { opacity: 1; } }
+
+@media (max-width: 900px) {
+  .hv2 { min-height: 0; padding-top: 32px; }
+  .hv2__inner { grid-template-columns: 1fr; }
+  .hv2__stage { margin: 8px -8% 0; }
+  .hv2-dia { width: 100%; margin-left: 0; }
+  .hv2__scroll, .hv2__caption { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hv2-dia .flow, .hv2-dia .ring--ticks, .hv2__aura, .hv2__scroll i::after { animation: none !important; }
+}

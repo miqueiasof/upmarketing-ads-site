@@ -1,5 +1,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{%- if earlyMotion %}
+<script>(function(d,m){d.dataset.motion=m('(prefers-reduced-motion: reduce)')?'off':(m('(pointer: coarse)')||(navigator.hardwareConcurrency||8)<=4)?'lite':'full';})(document.documentElement,function(q){return matchMedia(q).matches;});</script>
+{%- endif %}
 <title>{{ title }}</title>
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="{{ canonical | absoluteUrl }}">

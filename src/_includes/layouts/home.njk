@@ -16,7 +16,7 @@ extraJs:
 ---
 {%- set t = i18n[lang] -%}
 {%- set isEn = (lang == 'en') -%}
-{% include "partials/hero.njk" %}
+{% if heroVariant == 'v2' %}{% include "partials/hero-v2.njk" %}{% else %}{% include "partials/hero.njk" %}{% endif %}
 {% include "partials/proof.njk" %}
 {% include "partials/services-grid.njk" %}
 {% include "partials/method.njk" %}

@@ -26,7 +26,7 @@
   // Reveals: only elements below the first viewport animate; above-the-fold content is never hidden.
   const fold = window.innerHeight;
   gsap.utils.toArray('.reveal').forEach((el) => {
-    if (el.getBoundingClientRect().top < fold) return;
+    if (el.getBoundingClientRect().top < fold || el.closest('[data-motion-own]')) return;
     gsap.fromTo(el, { autoAlpha: 0, y: 24 }, {
       autoAlpha: 1, y: 0, duration: 0.9, ease: 'power3.out',
       scrollTrigger: { trigger: el, start: 'top 88%', once: true },

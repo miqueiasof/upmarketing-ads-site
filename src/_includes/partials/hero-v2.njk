@@ -1,0 +1,28 @@
+<section class="hv2" id="top" data-hv2>
+  <div class="hv2__bg" aria-hidden="true">
+    <div class="hv2__grid"></div>
+    <div class="hv2__spot"></div>
+    <div class="hv2__aura"></div>
+  </div>
+  <div class="container hv2__inner">
+    <div class="hv2__text">
+      <p class="mono hv2__kicker" data-intro><span class="hv2__kline"></span>{{ t.hero.kicker }}</p>
+      <h1 class="hv2__h1">
+        {%- for w in t.hero.h1a.split(' ') %}<span class="hv2__w"><span data-intro>{{ w }}</span></span> {% endfor -%}
+        <em>{%- for w in t.hero.h1b.split(' ') %}<span class="hv2__w"><span data-intro>{{ w }}</span></span>{% if not loop.last %} {% endif %}{% endfor -%}</em>
+      </h1>
+      <p class="hv2__sub" data-intro>{{ t.hero.sub }}</p>
+      <div class="hv2__actions" data-intro>
+        <a class="btn btn--primary" href="{{ diagnosisPath or '/diagnosis/' }}">{{ t.hero.cta }}</a>
+        <a class="btn btn--ghost" href="#services">{{ t.hero.cta2 }}</a>
+      </div>
+    </div>
+    <div class="hv2__stage" aria-hidden="true">
+      <div class="hv2__tilt">
+        {% include "partials/hero-v2-diagram.svg.njk" %}
+      </div>
+      <p class="mono hv2__caption">{{ t.servicesSection.h2 }}</p>
+    </div>
+  </div>
+  <div class="mono hv2__scroll" aria-hidden="true" data-intro><span>Scroll</span><i></i></div>
+</section>

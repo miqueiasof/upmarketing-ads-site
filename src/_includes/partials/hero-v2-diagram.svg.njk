@@ -1,0 +1,55 @@
+{#- Hero v2: 6 service nodes on an orbit (r 232) around the core at (410,360).
+    dx/dy = unit vector from the core to the node; the scroll scrub pushes nodes along it. -#}
+{%- set nodes = [
+  { x: 410, y: 128, lx: 410, ly: 72,  anchor: 'middle', dx: 0,      dy: -1 },
+  { x: 611, y: 244, lx: 667, ly: 249, anchor: 'start',  dx: 0.866,  dy: -0.5 },
+  { x: 611, y: 476, lx: 667, ly: 481, anchor: 'start',  dx: 0.866,  dy: 0.5 },
+  { x: 410, y: 592, lx: 410, ly: 662, anchor: 'middle', dx: 0,      dy: 1 },
+  { x: 209, y: 476, lx: 153, ly: 481, anchor: 'end',    dx: -0.866, dy: 0.5 },
+  { x: 209, y: 244, lx: 153, ly: 249, anchor: 'end',    dx: -0.866, dy: -0.5 }
+] -%}
+<svg class="hv2-dia" viewBox="0 0 820 720" role="img" aria-label="{{ t.hero.diagramCore }}" data-drawn="false">
+  <defs>
+    <radialGradient id="hv2-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3DE8C8" stop-opacity="0.38"/>
+      <stop offset="45%" stop-color="#3DE8C8" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#3DE8C8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g class="hv2-rings" data-intro>
+    <circle class="ring ring--ticks" cx="410" cy="360" r="318"/>
+    <circle class="ring ring--orbit" cx="410" cy="360" r="232"/>
+    <circle class="ring ring--inner" cx="410" cy="360" r="128"/>
+  </g>
+  <g class="hv2-net" data-intro fill="none" stroke-linecap="round">
+    {%- for i in range(0, 6) %}{% set a = nodes[i] %}{% set b = nodes[(i + 1) % 6] %}
+    <path class="chord" d="M{{ a.x }} {{ a.y }} L{{ b.x }} {{ b.y }}"/>
+    {%- endfor %}
+    {%- for n in nodes %}
+    <path class="spoke" d="M410 360 L{{ n.x }} {{ n.y }}"/>
+    <path class="flow" d="M{{ n.x }} {{ n.y }} L410 360"/>
+    <path class="comet" d="M{{ n.x }} {{ n.y }} L410 360"/>
+    {%- endfor %}
+  </g>
+  <g class="hv2-core" data-intro>
+    <circle class="core__glow" cx="410" cy="360" r="160" fill="url(#hv2-glow)"/>
+    <circle class="pulse" cx="410" cy="360" r="74"/>
+    <circle class="pulse" cx="410" cy="360" r="74"/>
+    <circle class="pulse" cx="410" cy="360" r="74"/>
+    <circle class="core__disc" cx="410" cy="360" r="74"/>
+    <text class="core__label" x="410" y="356" text-anchor="middle">{{ t.hero.nodes[6] }}</text>
+    <text class="core__label" x="410" y="377" text-anchor="middle">{{ t.hero.nodes[7] }}</text>
+  </g>
+  <g class="hv2-nodes" data-intro>
+    {%- for n in nodes %}
+    <g class="node" data-i="{{ loop.index0 }}" data-dx="{{ n.dx }}" data-dy="{{ n.dy }}">
+      <g class="node__body">
+        <circle class="node__halo" cx="{{ n.x }}" cy="{{ n.y }}" r="50"/>
+        <circle class="node__disc" cx="{{ n.x }}" cy="{{ n.y }}" r="38"/>
+        <text class="node__num" x="{{ n.x }}" y="{{ n.y + 5 }}" text-anchor="middle">0{{ loop.index }}</text>
+        <text class="node__label" x="{{ n.lx }}" y="{{ n.ly }}" text-anchor="{{ n.anchor }}">{{ t.hero.nodes[loop.index0] }}</text>
+      </g>
+    </g>
+    {%- endfor %}
+  </g>
+</svg>

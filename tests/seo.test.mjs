@@ -12,7 +12,8 @@ const EXPECTED_URLS = 29;
 const generatedPages = readdirSync('dist', { recursive: true })
   .filter((f) => f.endsWith('index.html'))
   .map((f) => join('dist', f))
-  .filter((f) => !f.startsWith('dist/portfolio/') && f !== 'dist/diagnosis/thanks/index.html');
+  .filter((f) => !f.startsWith('dist/portfolio/'))
+  .filter((f) => !readFileSync(f, 'utf8').includes('<meta name="robots" content="noindex'));
 
 test('sitemap tem 29 URLs absolutas, sem o obrigado, com hreflang nas homes', () => {
   const xml = readFileSync('dist/sitemap.xml', 'utf8');
