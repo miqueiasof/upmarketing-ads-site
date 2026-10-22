@@ -5,7 +5,7 @@
       <h2>{{ t.servicesSection.h2 }}</h2>
     </div>
     <p class="muted section__intro reveal">{{ t.servicesSection.intro }}</p>
-    <div class="services"{% if heroVariant == 'v2' %} data-motion-own{% endif %}>
+    <div class="services" data-motion-own>
       {%- for s in t.services %}
       {%- if isEn %}
       <a class="service-card reveal" href="/services/{{ s.slug }}/" data-service="{{ s.slug }}">

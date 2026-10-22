@@ -1,6 +1,6 @@
 import { test, expect } from 'playwright/test';
 
-const URL = '/preview-motion/';
+const URL = '/';
 const opacityOf = (locator) => locator.evaluate((el) => Number(getComputedStyle(el).opacity));
 
 test('v2 full: intro termina, loops ligam e o texto fica visível', async ({ page }) => {
@@ -57,10 +57,8 @@ test('v2 mobile: headline e CTA na dobra, sem scroll horizontal', async ({ brows
   await ctx.close();
 });
 
-test('v2 é noindex e não substitui a home', async ({ page }) => {
+test('home com hero v2 continua indexável', async ({ page }) => {
   await page.goto(URL);
-  await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex,nofollow');
-  await page.goto('/');
-  await expect(page.locator('.hv2')).toHaveCount(0);
-  await expect(page.locator('.hero-diagram svg')).toHaveCount(1);
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'index,follow');
+  await expect(page.locator('.hv2')).toHaveCount(1);
 });

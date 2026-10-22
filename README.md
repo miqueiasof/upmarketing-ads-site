@@ -28,6 +28,16 @@ Lighthouse (relatórios em `docs/lighthouse/`): `lighthouse https://upmarketinga
 - Score do diagnóstico (A/B/C): `src/assets/js/score.js`; e-mail do n8n: `scripts/n8n/`.
 - Privacidade: `src/privacy.njk` (número da empresa ainda em branco).
 
+## Motion da home
+
+Três níveis em `html[data-motion]`, decididos cedo no `<head>` (`earlyMotion`): `full` (desktop), `lite` (toque/CPU fraca: só loops CSS leves) e `off` (reduced motion: tudo parado). Sem JS, tudo aparece.
+
+- Hero "sistema se montando": `partials/hero-v2.njk` + `hero-v2-diagram.svg.njk`, `assets/js/hero-v2.js`, `assets/css/hero-v2.css`. Inclui a fixação no scroll e a entrada dos cards de serviço.
+- Resto da home: `assets/js/sections.js` + `assets/css/sections.css` (títulos por palavra, contadores da prova, trilho do método, barras do funil, galeria horizontal do portfólio, foto do fundador, FAQ animado, fundo do CTA). Roda antes do `motion.js` e marca o que anima com `data-motion-own`.
+- `assets/js/motion.js`: Lenis, revelação genérica (`.reveal`), botões magnéticos, brilho do cursor.
+- Revelações usam só opacidade/máscara (nunca `visibility`), pra não sumir conteúdo do leitor de tela.
+- Fontes reserva com `size-adjust` em `tokens.css` evitam pulo de layout na troca de fonte (FR tem a sua). Se mudar o texto do hero, rode o Lighthouse de novo e confira o CLS.
+
 ## Estrutura
 
 - `src/` — páginas (`.njk`), `_includes/` (layouts e partials), `_data/` (textos por idioma, serviços, regiões), `assets/` (css, js, fontes, imagens).

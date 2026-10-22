@@ -1,0 +1,70 @@
+/* Home sections motion: split headings, proof, method rail, funnel bars, portfolio gallery, CTA backdrop. */
+
+/* Split headings (spans are added by sections.js in full motion) */
+.sw { display: inline-block; overflow: hidden; vertical-align: top; padding: 0 0.07em 0.12em 0; margin: 0 -0.07em -0.12em 0; }
+.sw > span { display: inline-block; }
+
+/* Proof strip */
+.proof__dot { position: relative; }
+.proof__dot::after { content: ''; position: absolute; inset: -5px; border-radius: 50%; border: 1px solid var(--accent); opacity: 0; }
+html[data-motion="full"] .proof.is-live .proof__dot::after { animation: sec-ping 2.4s ease-out infinite; }
+html[data-motion="full"] .proof.is-live .proof__item:nth-child(2) .proof__dot::after { animation-delay: 0.8s; }
+html[data-motion="full"] .proof.is-live .proof__item:nth-child(3) .proof__dot::after { animation-delay: 1.6s; }
+.proof__n { color: var(--text); font-variant-numeric: tabular-nums; }
+
+/* Method: progress rail */
+.steps-wrap { position: relative; }
+.steps-wrap .step { position: relative; padding-left: 36px; }
+.steps-wrap .step > * { transition: opacity 0.5s var(--ease-out); }
+.steps__rail { position: absolute; left: 0; top: 0; bottom: 0; width: 1px; background: var(--line-strong); z-index: 1; }
+.steps__fill { position: absolute; inset: 0; background: var(--accent); transform-origin: top; }
+.steps-wrap .step__num { transition: color 0.4s; }
+.steps-wrap .step__num::before {
+  content: ''; position: absolute; left: -4px; top: 38px; width: 9px; height: 9px; border-radius: 50%; z-index: 2;
+  background: var(--accent); border: 1px solid var(--accent); box-shadow: 0 0 0 5px rgba(61, 232, 200, 0.12);
+  transition: background 0.4s, border-color 0.4s, box-shadow 0.4s;
+}
+.steps-wrap.is-armed .step:not(.is-on) > * { opacity: 0.32; }
+.steps-wrap.is-armed .step:not(.is-on) .step__num::before { background: var(--bg); border-color: var(--line-strong); box-shadow: none; }
+
+/* Funnel: volume bars behind each stage */
+.funnel__stage > .funnel__label, .funnel__stage > .funnel__note { position: relative; z-index: 1; }
+.funnel__bar { position: absolute; left: 0; top: 7px; bottom: 7px; width: calc(var(--w, 0) * 1%); border-radius: 2px; transform-origin: left center; }
+.funnel__col--before .funnel__bar { background: linear-gradient(90deg, rgba(255, 138, 138, 0.02), rgba(255, 138, 138, 0.24)); }
+.funnel__col--after .funnel__bar { background: linear-gradient(90deg, rgba(61, 232, 200, 0.02), rgba(61, 232, 200, 0.26)); }
+.funnel__leak { position: absolute; left: calc(var(--w, 0) * 1% - 4px); bottom: -6px; width: 4px; height: 4px; pointer-events: none; }
+.funnel__leak::before, .funnel__leak::after { content: ''; position: absolute; inset: 0; border-radius: 50%; background: #FF8A8A; opacity: 0; }
+html[data-motion="full"] .funnel.is-live .funnel__leak::before { animation: sec-drip 1.6s ease-in infinite; }
+html[data-motion="full"] .funnel.is-live .funnel__leak::after { animation: sec-drip 1.6s ease-in 0.8s infinite; }
+.funnel__col--after { transition: box-shadow 1.2s var(--ease-out); }
+.funnel__col--after.is-in { box-shadow: 0 0 0 1px rgba(61, 232, 200, 0.35), 0 40px 90px -50px rgba(61, 232, 200, 0.55); }
+
+/* Portfolio gallery: native swipe by default, scroll-driven slide on desktop full motion */
+.strip.is-scrub { overflow: hidden; scroll-snap-type: none; }
+.strip.is-scrub .strip__item img { will-change: transform; }
+
+/* Final CTA backdrop */
+.cta-final { position: relative; isolation: isolate; overflow: hidden; }
+.cta-final::before {
+  content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: 0.45;
+  background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(ellipse 60% 70% at 50% 25%, #000 10%, transparent 75%);
+  mask-image: radial-gradient(ellipse 60% 70% at 50% 25%, #000 10%, transparent 75%);
+}
+.cta-final::after {
+  content: ''; position: absolute; left: 50%; top: 18%; z-index: -1; width: min(1000px, 90vw); aspect-ratio: 1; translate: -50% -50%; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle, rgba(61, 232, 200, 0.14), transparent 62%);
+}
+html[data-motion="full"] .cta-final::after { animation: hv2-breathe 7s ease-in-out infinite; }
+
+@keyframes sec-ping { 0% { transform: scale(0.6); opacity: 0.8; } 100% { transform: scale(2.4); opacity: 0; } }
+@keyframes sec-drip { 0% { opacity: 0; transform: translateY(-4px); } 20% { opacity: 0.9; } 100% { opacity: 0; transform: translateY(26px); } }
+
+@media (max-width: 900px) {
+  .steps-wrap .step { padding-left: 28px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .proof__dot::after, .funnel__leak::before, .funnel__leak::after, .cta-final::after { animation: none !important; }
+}

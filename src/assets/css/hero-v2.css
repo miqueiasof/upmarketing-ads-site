@@ -19,7 +19,7 @@
 }
 html[data-motion="full"] .hv2.is-live .hv2__spot { opacity: 1; }
 .hv2__aura {
-  position: absolute; right: -14%; top: 50%; width: min(1150px, 95vw); aspect-ratio: 1; translate: 0 -50%; border-radius: 50%;
+  position: absolute; right: -14%; top: 48vh; width: min(1150px, 95vw); aspect-ratio: 1; translate: 0 -50%; border-radius: 50%;
   background: radial-gradient(circle, rgba(61, 232, 200, 0.17) 0%, rgba(61, 232, 200, 0.05) 36%, transparent 66%);
 }
 html[data-motion="full"] .hv2.is-live .hv2__aura { animation: hv2-breathe 7s ease-in-out infinite; }
@@ -29,7 +29,7 @@ html[data-motion="full"] .hv2.is-live .hv2__aura { animation: hv2-breathe 7s eas
 .hv2__text { position: relative; z-index: 1; }
 .hv2__kicker { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
 .hv2__kline { display: inline-block; width: 44px; height: 1px; background: var(--accent); }
-.hv2__h1 { font-size: clamp(2.8rem, 6.2vw, 6.4rem); line-height: 1.02; max-width: 12ch; }
+.hv2__h1 { font-size: clamp(2.8rem, 6.2vw, 6.4rem); line-height: 1.02; max-width: 5.52em; }
 .hv2__w { display: inline-block; overflow: hidden; vertical-align: top; padding: 0 0.08em 0.1em 0; margin: 0 -0.08em -0.1em 0; }
 .hv2__w > span { display: inline-block; }
 .hv2__sub { color: var(--muted); font-size: 1.125rem; margin-top: 28px; max-width: 44ch; }

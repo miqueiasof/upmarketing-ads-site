@@ -6,16 +6,19 @@
     </div>
     <p class="mono reveal">{{ t.method.kicker }}</p>
     <p class="muted section__intro reveal">{{ t.method.intro }}</p>
-    <ol class="steps">
-      {%- for step in t.method.steps %}
-      <li class="step reveal">
-        <span class="step__num">0{{ loop.index }}</span>
-        <div>
-          <h3 class="step__title">{{ step.title }}</h3>
-          <p class="step__text">{{ step.text }}</p>
-        </div>
-      </li>
-      {%- endfor %}
-    </ol>
+    <div class="steps-wrap">
+      <span class="steps__rail" aria-hidden="true"><span class="steps__fill"></span></span>
+      <ol class="steps">
+        {%- for step in t.method.steps %}
+        <li class="step reveal">
+          <span class="step__num">0{{ loop.index }}</span>
+          <div>
+            <h3 class="step__title">{{ step.title }}</h3>
+            <p class="step__text">{{ step.text }}</p>
+          </div>
+        </li>
+        {%- endfor %}
+      </ol>
+    </div>
   </div>
 </section>

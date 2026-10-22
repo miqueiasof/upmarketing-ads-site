@@ -1,3 +1,12 @@
+/* Metric-matched fallbacks: system fonts scaled to the web fonts' line width, so the font swap
+   does not reflow the page (measured: Instrument Serif = 83% of Times New Roman, Space Grotesk = 108.3% of Arial).
+   French headlines wrap differently and need their own serif scale (88%), picked by html[lang="fr"]. */
+@font-face { font-family: 'Instrument Serif Fallback'; font-style: normal; src: local('Times New Roman'), local('TimesNewRomanPSMT'), local('Liberation Serif'), local('Noto Serif'); size-adjust: 83%; }
+@font-face { font-family: 'Instrument Serif Fallback'; font-style: italic; src: local('Times New Roman Italic'), local('TimesNewRomanPS-ItalicMT'), local('Liberation Serif Italic'), local('Noto Serif Italic'); size-adjust: 83%; }
+@font-face { font-family: 'Instrument Serif Fallback FR'; font-style: normal; src: local('Times New Roman'), local('TimesNewRomanPSMT'), local('Liberation Serif'), local('Noto Serif'); size-adjust: 88%; }
+@font-face { font-family: 'Instrument Serif Fallback FR'; font-style: italic; src: local('Times New Roman Italic'), local('TimesNewRomanPS-ItalicMT'), local('Liberation Serif Italic'), local('Noto Serif Italic'); size-adjust: 88%; }
+@font-face { font-family: 'Space Grotesk Fallback'; src: local('Arial'), local('ArialMT'), local('Liberation Sans'), local('Roboto'); size-adjust: 108.3%; }
+
 :root {
   --bg: #0A1428;
   --deep: #060D1C;
@@ -9,8 +18,8 @@
   --accent: #3DE8C8;
   --accent-ink: #0A1428;
 
-  --font-display: 'Instrument Serif', Georgia, serif;
-  --font-text: 'Space Grotesk', system-ui, sans-serif;
+  --font-display: 'Instrument Serif', 'Instrument Serif Fallback', Georgia, serif;
+  --font-text: 'Space Grotesk', 'Space Grotesk Fallback', system-ui, sans-serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
 
   --text-display: clamp(2.6rem, 7vw, 6rem);
@@ -30,3 +39,5 @@
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --dur: 0.35s;
 }
+
+html[lang="fr"] { --font-display: 'Instrument Serif', 'Instrument Serif Fallback FR', Georgia, serif; }

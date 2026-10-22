@@ -4,13 +4,18 @@
       <span class="section__num">{{ t.funnel.num }}</span>
       <h2>{{ t.funnel.h2 }}</h2>
     </div>
+    {#- Illustrative volume per stage (no data claim): before leaks away, after holds. -#}
+    {%- set widths = [[100, 58, 24, 7], [100, 90, 78, 66, 56]] -%}
     <div class="funnel">
       {%- for side in [t.funnel.before, t.funnel.after] %}
+      {%- set si = loop.index0 %}
       <div class="funnel__col reveal {{ 'funnel__col--after' if loop.index == 2 else 'funnel__col--before' }}">
         <p class="mono">{{ side.label }}</p>
         <ol class="funnel__stages">
           {%- for st in side.stages %}
-          <li class="funnel__stage">
+          <li class="funnel__stage" style="--w: {{ widths[si][loop.index0] or 50 }}">
+            <span class="funnel__bar" aria-hidden="true"></span>
+            {%- if si == 0 and not loop.last %}<i class="funnel__leak" aria-hidden="true"></i>{% endif %}
             <span class="funnel__label">{{ st.label }}</span>
             <span class="funnel__note muted">{{ st.note }}</span>
           </li>

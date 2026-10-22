@@ -8,12 +8,11 @@
   </div>
   <div class="strip reveal" aria-hidden="true">
     <div class="strip__track">
-      {%- for i in range(0, 2) %}
       {%- for n in ['01', '02', '03', '04'] %}
       <figure class="strip__item">
         <img src="/portfolio/img/m{{ n }}-desktop.jpg" alt="" loading="lazy" width="900" height="600">
+        <figcaption class="mono strip__cap">{{ n }} / 04</figcaption>
       </figure>
-      {%- endfor %}
       {%- endfor %}
     </div>
   </div>

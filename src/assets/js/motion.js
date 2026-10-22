@@ -8,9 +8,6 @@
   document.documentElement.dataset.motion = level;
   window.UPMotion = { level };
 
-  const svg = document.querySelector('.hero-diagram svg');
-  if (svg && window.playHeroDiagram) window.playHeroDiagram(svg, level);
-
   if (level === 'off' || !window.gsap || !window.ScrollTrigger) return;
   const { gsap, ScrollTrigger } = window;
   gsap.registerPlugin(ScrollTrigger);
@@ -24,13 +21,17 @@
   }
 
   // Reveals: only elements below the first viewport animate; above-the-fold content is never hidden.
+  // Full motion wipes blocks in through a mask; lite fades them up.
   const fold = window.innerHeight;
+  const wipe = level === 'full';
+  // Opacity only (never visibility): hidden-but-pending content must stay in the accessibility tree.
+  const hidden = wipe ? { clipPath: 'inset(0% 0% 100% 0%)', y: 40 } : { opacity: 0, y: 24 };
+  const shown = wipe
+    ? { clipPath: 'inset(0% 0% 0% 0%)', y: 0, duration: 1.1, ease: 'power4.out', clearProps: 'clipPath' }
+    : { opacity: 1, y: 0, duration: 0.9, ease: 'power3.out' };
   gsap.utils.toArray('.reveal').forEach((el) => {
     if (el.getBoundingClientRect().top < fold || el.closest('[data-motion-own]')) return;
-    gsap.fromTo(el, { autoAlpha: 0, y: 24 }, {
-      autoAlpha: 1, y: 0, duration: 0.9, ease: 'power3.out',
-      scrollTrigger: { trigger: el, start: 'top 88%', once: true },
-    });
+    gsap.fromTo(el, hidden, { ...shown, scrollTrigger: { trigger: el, start: 'top 88%', once: true } });
   });
 
   if (level !== 'full') return;

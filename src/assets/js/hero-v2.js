@@ -145,7 +145,7 @@
   // Scroll: hero pins, text leaves, the system moves to centre stage and opens up.
   const mm = gsap.matchMedia();
   mm.add('(min-width: 901px)', () => {
-    gsap.timeline({ scrollTrigger: { trigger: hero, start: 'top top', end: '+=80%', scrub: 0.7, pin: true, anticipatePin: 1 } })
+    gsap.timeline({ scrollTrigger: { trigger: hero, start: 'top top', end: '+=80%', scrub: 0.7, pin: true, anticipatePin: 1, refreshPriority: 2 } })
       .to(el.text, { yPercent: -14, autoAlpha: 0, ease: 'none' }, 0)
       .to(el.cue, { autoAlpha: 0, ease: 'none', duration: 0.15 }, 0)
       .to(el.stage, { xPercent: -50, y: 48, scale: 1.04, ease: 'none' }, 0)

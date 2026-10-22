@@ -1,9 +1,13 @@
 ---
 layout: layouts/base.njk
+bodyClass: hv2-page
+earlyMotion: true
 extraCss:
   - /assets/css/home.css
   - /assets/css/motion.css
   - /assets/css/form.css
+  - /assets/css/hero-v2.css
+  - /assets/css/sections.css
 extraModules:
   - /assets/js/diagnosis.js
 extraJs:
@@ -11,12 +15,13 @@ extraJs:
   - /assets/vendor/ScrollTrigger.min.js
   - /assets/vendor/DrawSVGPlugin.min.js
   - /assets/vendor/lenis.min.js
-  - /assets/js/hero-diagram.js
+  - /assets/js/hero-v2.js
+  - /assets/js/sections.js
   - /assets/js/motion.js
 ---
 {%- set t = i18n[lang] -%}
 {%- set isEn = (lang == 'en') -%}
-{% if heroVariant == 'v2' %}{% include "partials/hero-v2.njk" %}{% else %}{% include "partials/hero.njk" %}{% endif %}
+{% include "partials/hero-v2.njk" %}
 {% include "partials/proof.njk" %}
 {% include "partials/services-grid.njk" %}
 {% include "partials/method.njk" %}
