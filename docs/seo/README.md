@@ -19,6 +19,12 @@ O app OAuth do projeto está em modo "Testando", e nesse modo o Google derruba o
 4. No Search Console → Configurações → Usuários e permissões → Adicionar usuário: o e-mail da conta de serviço, permissão **Restrita** (só leitura).
 5. Testar: `npm run seo:report`.
 
+## Status (22/10/2026)
+
+- Search Console API ligada no projeto; conta de serviço `gsc-reader@gen-lang-client-0642018730.iam.gserviceaccount.com` criada sem papéis no projeto e adicionada como usuário **Restrito** na propriedade; chave em `~/.config/upmarketing/gsc-service-account.json` (600).
+- Agendado no Mac: `~/Library/LaunchAgents/com.upmarketing.seo-report.plist` — toda segunda 09:00 (Londres) roda `gsc-report.mjs --email` para `up.marketing.ads@gmail.com`. Log em `~/Library/Logs/upmarketing-seo-report.log`. Rodar agora: `launchctl kickstart gui/$(id -u)/com.upmarketing.seo-report`. Desligar: `launchctl bootout gui/$(id -u)/com.upmarketing.seo-report`.
+- Relatórios e snapshots ficam em `docs/seo/reports/` e `docs/seo/snapshots/`, só no Mac (fora do git).
+
 ## Quando esperar dados
 
 A propriedade foi verificada em 22/10/2026. O Search Console mostra as primeiras impressões 2–3 dias depois, e páginas novas costumam levar de 1 a 4 semanas pra entrar no índice e alguns meses pra estabilizar posição. Nas primeiras semanas o dado mais útil do relatório é a coluna **Indexação**.
