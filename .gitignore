@@ -3,3 +3,5 @@ dist/
 .playwright/
 .claude/
 scripts/n8n/workflow.raw.json
+docs/seo/reports/
+docs/seo/snapshots/
