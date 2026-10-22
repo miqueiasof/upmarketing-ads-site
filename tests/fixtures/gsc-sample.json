@@ -1,0 +1,15 @@
+{
+  "pageRows": [
+    { "keys": ["https://upmarketingads.com/services/seo-ai-search/"], "clicks": 4, "impressions": 120, "ctr": 0.033, "position": 22.5 },
+    { "keys": ["https://upmarketingads.com/london/shoreditch/"], "clicks": 1, "impressions": 45, "ctr": 0.022, "position": 14.2 },
+    { "keys": ["https://upmarketingads.com/"], "clicks": 2, "impressions": 30, "ctr": 0.067, "position": 35.1 }
+  ],
+  "queryRows": [
+    { "keys": ["https://upmarketingads.com/services/seo-ai-search/", "seo agency london"], "clicks": 2, "impressions": 60, "ctr": 0.033, "position": 22 },
+    { "keys": ["https://upmarketingads.com/services/seo-ai-search/", "london seo agency"], "clicks": 1, "impressions": 30, "ctr": 0.033, "position": 18 },
+    { "keys": ["https://upmarketingads.com/services/seo-ai-search/", "ai search optimisation"], "clicks": 1, "impressions": 20, "ctr": 0.05, "position": 25 },
+    { "keys": ["https://upmarketingads.com/london/shoreditch/", "web design shoreditch"], "clicks": 1, "impressions": 40, "ctr": 0.025, "position": 13.5 },
+    { "keys": ["https://upmarketingads.com/", "up marketing ads"], "clicks": 2, "impressions": 12, "ctr": 0.167, "position": 1.2 }
+  ],
+  "inspections": {}
+}
